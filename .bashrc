@@ -3,7 +3,10 @@
 # for examples
 
 # If not running interactively, don't do anything
-[ -z "$PS1" ] && return
+case $- in
+    *i*) ;;
+      *) return;;
+esac
 
 # don't put duplicate lines or lines starting with space in the history.
 # See bash(1) for more options
@@ -36,8 +39,6 @@ fi
 case "$TERM" in
     xterm-color) color_prompt=yes;;
 esac
-
-# Vim-type navigation
 
 # uncomment for a colored prompt, if the terminal has the capability; turned
 # off by default to not distract the user: the focus in a terminal window
@@ -104,50 +105,35 @@ fi
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
 # sources /etc/bash.bashrc).
-if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
-    . /etc/bash_completion
-fi
 
-# Lines added by the Vim-R-plugin command :RpluginConfig (2014-Aug-6 10:42):
-# Change the TERM environment variable (to get 256 colors) and make Vim
-# connecting to X Server even if running in a terminal emulator (to get
-# dynamic update of syntax highlight and Object Browser):
-if [ "x$DISPLAY" != "x" ]
-then
-    if [ "screen" = "$TERM" ]
-    then
-        export TERM=screen-256color
-    else
-        export TERM=xterm-256color
-    fi
-    alias vim='vim --servername VIM'
-    if [ "x$TERM" == "xxterm" ] || [ "x$TERM" == "xxterm-256color" ]
-    then
-        function tvim(){ tmux -2 new-session "TERM=screen-256color vim --servername VIM $@" ; }
-    else
-        function tvim(){ tmux new-session "vim --servername VIM $@" ; }
-    fi
-else
-    if [ "x$TERM" == "xxterm" ] || [ "x$TERM" == "xxterm-256color" ]
-    then
-        function tvim(){ tmux -2 new-session "TERM=screen-256color vim $@" ; }
-    else
-        function tvim(){ tmux new-session "vim $@" ; }
-    fi
+if ! shopt -oq posix; then
+  if [ -f /usr/share/bash-completion/bash_completion ]; then
+    . /usr/share/bash-completion/bash_completion
+  elif [ -f /etc/bash_completion ]; then
+    . /etc/bash_completion
+  fi
 fi
 
 # autojump
 . /usr/share/autojump/autojump.sh
 
 # Virtualenvwrapper
-source /usr/local/bin/virtualenvwrapper.sh
+# source /usr/local/bin/virtualenvwrapper.sh
 
-# Clean up stuff in my home directory
-command rm -f ~/*.log
-command rm -f -r ~/gretl
+
 
 # Function up from quora
 function up {
     cd `expr "$PWD" : "^\(.*$1[^/]*\)"`
+}
+
+# packrat Rprofile
+function gen_packrat_rprofile
+{
+    printf 'if (file.exists("~/.Rprofile")) source("~/.Rprofile")
+
+    #### -- Packrat Autoloader (version 0.4.4) -- ####
+    source("packrat/init.R")
+    #### -- End Packrat Autoloader -- ####' > .Rprofile
 }
 
