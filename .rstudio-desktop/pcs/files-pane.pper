@@ -1,0 +1,9 @@
+{
+    "path" : "~/tmp/sandbox",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}

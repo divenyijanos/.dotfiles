@@ -1,0 +1,12 @@
+[user]
+	name = Janos Divenyi
+	email = janos.divenyi@emarsys.com
+[color]
+    ui = true
+[alias]
+    lg=log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+    s="!echo \"# Remotes\"; git remote -v; echo .; git status ."
+[core]
+	editor = subl
+[push]
+	default = simple

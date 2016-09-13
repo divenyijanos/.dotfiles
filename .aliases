@@ -1,0 +1,33 @@
+# basic OSX aliases
+alias ls='ls -G'
+alias ll='ls -FGlAhp'
+alias less='less -R'
+
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+
+# Frequent commands
+alias e='exit'
+alias cd..='cd ..'
+alias trash='rmtrash'
+
+# Programs
+alias rstudio='open -a Rstudio'
+alias R='R --no-save'
+
+# Special commands
+alias rmspaces="rename 'y/ /_/' *"
+alias gen_shiny='touch app.R global.R server.R ui.R'
+alias inventory='sort | uniq -c | sort -n'
+alias mven='mount -t smbfs //janos.divenyi@venice.ett.local/bigdata ~/venice/bigdata'
+alias mven_si='mount -t smbfs //janos.divenyi@venice.ett.local/smart_insight ~/venice/SI'
+alias umven='mount -t smbfs //janos.divenyi@venice.ett.local/bigdata ~/venice/bigdata'
+alias umven_si='mount -t smbfs //janos.divenyi@venice.ett.local/smart_insight ~/venice/SI'
+
+# DB
+alias hds_sql='psql -h 10.22.0.211 -p 5432 -U hds -d hds'
+alias gp2_sql='psql -h 10.22.0.220 -p 5432 -U hds -d hds'
+alias si_sql='psql -h 10.22.0.211 -p 5432 -U si_implementations -d smart_insight'
+alias query_hds='sql2csv --db postgresql://hds@10.22.0.211:5432/hds'
+alias query_si='sql2csv --db postgresql://si_implementations@10.22.0.211:5432/smart_insight'
