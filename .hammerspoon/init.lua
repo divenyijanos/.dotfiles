@@ -91,23 +91,39 @@ for key, app in pairs(applicationHotkeys) do
   end)
 end
 
+-- Caffeine
+
 local caffeine = hs.menubar.new()
-function setCaffeineDisplay(state)
+
+local function updateCaffeineDisplay(state)
+    local result
     if state then
-        caffeine:setTitle("AWAKE")
+        caffeine:setIcon("caffeine-active.png")
+        hs.alert("Caffeine enabled", 1)
     else
-        caffeine:setTitle("SLEEPY")
+        caffeine:setIcon("caffeine-inactive.png")
+        hs.alert("Caffeine disabled", 1)
     end
 end
 
-function caffeineClicked()
-    setCaffeineDisplay(hs.caffeinate.toggle("displayIdle"))
+function toggleCaffeine()
+    updateCaffeineDisplay(hs.caffeinate.toggle("displayIdle"))
+end
+
+function removeCaffeine()
+    caffeine:delete()
+    caffeine = nil
 end
 
 if caffeine then
-    caffeine:setClickCallback(caffeineClicked)
-    setCaffeineDisplay(hs.caffeinate.get("displayIdle"))
+    caffeine:setClickCallback(toggleCaffeine)
+    updateCaffeineDisplay(hs.caffeinate.get("displayIdle"))
 end
+
+hs.hotkey.bind(hyper, "`", function()
+    toggleCaffeine()
+end)
+
 
 hs.notify.new({title="Hammerspoon", informativeText="Config loaded"}):send():release()
 
