@@ -21,9 +21,9 @@ alias rmspaces="rename 'y/ /_/' *"
 alias gen_shiny='touch app.R global.R server.R ui.R'
 alias inventory='sort | uniq -c | sort -n'
 alias mven='mount -t smbfs //janos.divenyi@venice.ett.local/bigdata ~/venice/bigdata'
+alias mven_cran='mount -t smbfs //janos.divenyi@venice.ett.local/storage/emarsys-cran ~/venice/emarsys-cran'
 alias mven_si='mount -t smbfs //janos.divenyi@venice.ett.local/smart_insight ~/venice/SI'
-alias umven='mount -t smbfs //janos.divenyi@venice.ett.local/bigdata ~/venice/bigdata'
-alias umven_si='mount -t smbfs //janos.divenyi@venice.ett.local/smart_insight ~/venice/SI'
+
 
 # DB
 alias hds_sql='psql -h 10.22.0.211 -p 5432 -U hds -d hds'
