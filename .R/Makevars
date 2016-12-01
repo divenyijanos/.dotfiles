@@ -1,0 +1,4 @@
+CC=/usr/local/opt/llvm/bin/clang -fopenmp
+CXX=/usr/local/opt/llvm/bin/clang++
+LDFLAGS=-L/usr/local/opt/llvm/lib
+CPPFLAGS=-I/usr/local/opt/llvm/include
