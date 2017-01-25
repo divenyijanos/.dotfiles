@@ -1,0 +1,891 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"summary",
+				"summaryRprof"
+			],
+			[
+				"sample",
+				"sample_dt"
+			],
+			[
+				"calc",
+				"calculateSimulatedAbsoluteRelativeOpenRate"
+			],
+			[
+				"calcul",
+				"calculateProportionalRelativeOpenRates"
+			],
+			[
+				"calcu",
+				"calculateSimulateDistribution"
+			],
+			[
+				"getOpenRat",
+				"getOpenRateCampaignData"
+			],
+			[
+				"fun",
+				"fun	fun"
+			],
+			[
+				"getEx",
+				"getExchangeRateVector"
+			],
+			[
+				"Creat",
+				"CreateContactData"
+			],
+			[
+				"conta",
+				"contact_dt"
+			],
+			[
+				"buys_",
+				"buys_in_next_month"
+			],
+			[
+				"buys",
+				"buys_in_next_month"
+			],
+			[
+				"Cr",
+				"create_descriptive_graph"
+			],
+			[
+				"CreateM",
+				"CreateMonthlyEmailData"
+			],
+			[
+				"CreateMo",
+				"CreateMonthlyPurchaseData"
+			],
+			[
+				"star",
+				"start_month"
+			],
+			[
+				"purchase",
+				"purchases_next_month"
+			],
+			[
+				"purchases",
+				"purchases_dt"
+			],
+			[
+				"purch",
+				"purchases_dt"
+			],
+			[
+				"purchas",
+				"purchase_date"
+			],
+			[
+				"purc",
+				"purchase_date"
+			],
+			[
+				"sent_at",
+				"sent_at_month"
+			],
+			[
+				"Create",
+				"CreateOpenTimeForEmail"
+			],
+			[
+				"Ge",
+				"GenFocusGroup"
+			],
+			[
+				"Load",
+				"LoadPurchaseData"
+			],
+			[
+				"focus",
+				"focus_group_df"
+			],
+			[
+				"sent",
+				"sent_at_month"
+			],
+			[
+				"sen",
+				"sent_at_month"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "rare-loyals.sublime-project",
+			"settings":
+			{
+				"buffer_size": 79,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 398.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"edi",
+				"Project: Edit"
+			],
+			[
+				"s",
+				"SQLExec: Desc Table"
+			],
+			[
+				"edit ",
+				"Project: Edit"
+			],
+			[
+				"saveas",
+				"Project: Save As"
+			],
+			[
+				"proje",
+				"Project: Edit Project"
+			],
+			[
+				"prefere",
+				"Preferences: Settings - User"
+			],
+			[
+				"linter",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"intall ",
+				"Package Control: Install Package"
+			],
+			[
+				"pref",
+				"Preferences: Settings - User"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Ifelse"
+			],
+			[
+				"packare re",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"package in",
+				"Package Control: Install Package"
+			],
+			[
+				"snipp",
+				"Snippet: Function"
+			],
+			[
+				":",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				":0",
+				":0 - BOF"
+			],
+			[
+				":$",
+				":$ - EOF"
+			],
+			[
+				"",
+				":0 - BOF"
+			],
+			[
+				"delet",
+				"File: Delete"
+			],
+			[
+				"d",
+				"File: Delete"
+			],
+			[
+				"dele",
+				"File: Delete"
+			],
+			[
+				"intl p",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"cta",
+				"CTags: Show Symbols (all)"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"align",
+				"Preferences: Alignment Key Bindings – Default"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"R-Bo",
+				"R-Box: Choose Program"
+			],
+			[
+				"pre",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 599.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/jdivenyi/Library/Application Support/Sublime Text 3/Packages/User/Projects/Users/jdivenyi/projects/rare-loyals"
+	],
+	"file_history":
+	[
+		"/home/janos.divenyi/projects/rare-loyals/src/get_data.sql",
+		"/home/janos.divenyi/projects/engagement-score/src/sql/monthly_purchases.sql",
+		"/home/janos.divenyi/projects/engagement-score/src/sql/monthly_email.sql",
+		"/home/janos.divenyi/projects/rare_loyals/src/get_data.sql",
+		"/home/janos.divenyi/.sublime-projects/engagement-score.sublime-project",
+		"/home/janos.divenyi/.bashrc",
+		"/home/janos.divenyi/work/tmp/simulation.R",
+		"/home/janos.divenyi/.Rprofile",
+		"/home/janos.divenyi/work/sending-time-optimization/sending_time_optimization_explore/app.R",
+		"/home/janos.divenyi/work/tmp/.Rprofile",
+		"/home/janos.divenyi/work/tmp/autotest.R",
+		"/home/janos.divenyi/work/sending-time-optimization/open_rate_deviation/autotest.R",
+		"/home/janos.divenyi/work/sending-time-optimization/src/sql/relative_open_rate_by_contact.sql",
+		"/home/janos.divenyi/work/sending-time-optimization/src/sql/open_rate_by_contact.sql",
+		"/home/janos.divenyi/work/sending-time-optimization/src/sql/open_rate_by_campaign.sql",
+		"/home/janos.divenyi/work/tmp/binom.R",
+		"/home/janos.divenyi/work/tmp/test-binom.R",
+		"/home/janos.divenyi/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/janos.divenyi/.config/sublime-text-3/Packages/R-Box/R-Box.sublime-settings",
+		"/home/janos.divenyi/.config/sublime-text-3/Packages/User/R-Box.sublime-settings",
+		"/home/janos.divenyi/work/sending-time-optimization/src/average_campaign_open_rates.R",
+		"/home/janos.divenyi/work/sending-time-optimization/src/readData.R",
+		"/home/janos.divenyi/work/sending-time-optimization/sending_time_optimization_explore/global.R",
+		"/home/janos.divenyi/.bash_aliases",
+		"/home/janos.divenyi/.gen_packrat_rprofile.sh",
+		"/home/janos.divenyi/work/sending-time-optimization/open_rate_deviation/ui.R",
+		"/home/janos.divenyi/work/sending-time-optimization/sending_time_optimization_explore/server.R",
+		"/home/janos.divenyi/work/sending-time-optimization/data/relative_open_rate_deviation/tv123-relative_open_rate_deviation.csv",
+		"/home/janos.divenyi/work/sending-time-optimization/open_rate_deviation_by_contact/app.R",
+		"/home/janos.divenyi/work/sending-time-optimization/open_rate_deviation_by_contact/ui.R",
+		"/home/janos.divenyi/work/sending-time-optimization/open_rate_deviation_by_contact/global.R",
+		"/home/janos.divenyi/work/tmp/ui.R",
+		"/home/janos.divenyi/work/tmp/server.R",
+		"/home/janos.divenyi/work/tmp/global.R",
+		"/home/janos.divenyi/work/tmp/app.R",
+		"/home/janos.divenyi/work/sending-time-optimization/open_rate_deviation_by_contact/server.R",
+		"/home/janos.divenyi/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/janos.divenyi/.config/sublime-text-3/Packages/User/SQLExec.sublime-settings",
+		"/home/janos.divenyi/.config/sublime-text-3/Packages/User/la.sublime-snippet",
+		"/home/janos.divenyi/.config/sublime-text-3/Packages/User/fun.sublime-snippet",
+		"/home/janos.divenyi/.config/sublime-text-3/Packages/User/lap.sublime-snippet",
+		"/home/janos.divenyi/work/sending-time-optimization/open_rate_by_campaign/app.R",
+		"/home/janos.divenyi/work/try.R",
+		"/home/janos.divenyi/.config/sublime-text-3/Packages/User/delete-file.py",
+		"/home/janos.divenyi/work/try.txt",
+		"/home/janos.divenyi/work/sending-time-optimization/.git/MERGE_MSG",
+		"/home/janos.divenyi/.config/sublime-text-3/Packages/User/app.sublime-snippet",
+		"/home/janos.divenyi/work/sending-time-optimization/src/dbtools.R",
+		"/home/janos.divenyi/work/sending-time-optimization/src/transform.R",
+		"/home/janos.divenyi/work/sending-time-optimization/src/sql/read_email_data_raw.sql",
+		"/home/janos.divenyi/work/sending-time-optimization/src/sql/stHist.sql",
+		"/home/janos.divenyi/work/sending-time-optimization/src/simulate_open_rates.R",
+		"/home/janos.divenyi/work/sending-time-optimization/src/sql/open_rate_by_send_time.sql",
+		"/home/janos.divenyi/work/sending-time-optimization/global.R",
+		"/home/janos.divenyi/work/sending-time-optimization/data/SI_customer_ids.csv",
+		"/home/janos.divenyi/work/engagement-score/data/SI_customer_ids.csv",
+		"/home/janos.divenyi/work/sending-time-optimization/ui.R",
+		"/home/janos.divenyi/work/sending-time-optimization/server.R",
+		"/home/janos.divenyi/work/analyse-value-control/server.R",
+		"/home/janos.divenyi/work/sending-time-optimization/src/sql/open_rate_deviation.sql",
+		"/home/janos.divenyi/work/value-control-simulation/server.R",
+		"/home/janos.divenyi/work/analyse-value-control/app.R",
+		"/home/janos.divenyi/work/sending-time-optimization/src/create_open_rate_deviations.R",
+		"/home/janos.divenyi/work/value-control-simulation/ui.R",
+		"/home/janos.divenyi/work/sending-time-optimization/src/try_email.csv",
+		"/home/janos.divenyi/work/value-control-simulation/app.R",
+		"/home/janos.divenyi/work/value-control-simulation/global.R",
+		"/home/janos.divenyi/work/value-control-simulation/src/simulate-value-control.R",
+		"/home/janos.divenyi/work/work.sublime-project",
+		"/home/janos.divenyi/work/value-control-simulation/test-value-control.R",
+		"/home/janos.divenyi/work/monthly_purchases.sql",
+		"/home/janos.divenyi/work/rare_loyals/src/predict_buy_from_email.R",
+		"/home/janos.divenyi/work/rare_loyals/src/get_data.sql",
+		"/home/janos.divenyi/work/test-value-control.R",
+		"/home/janos.divenyi/work/exchange-rate-scraper/test_exchange-rate-scraper.R",
+		"/home/janos.divenyi/work/exchange-rate-scraper/exchange-rate-scraper.R",
+		"/home/janos.divenyi/work/rare_loyals/src/create_descriptive_graph.R",
+		"/home/janos.divenyi/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/janos.divenyi/.config/sublime-text-3/Packages/Alignment/Default (Linux).sublime-keymap",
+		"/home/janos.divenyi/tmp/shiny/ui.R",
+		"/home/janos.divenyi/tmp/shiny/server.R",
+		"/home/janos.divenyi/tmp/shiny/global.R",
+		"/home/janos.divenyi/tmp/shiny/app.R",
+		"/home/janos.divenyi/.tmux.conf",
+		"/home/janos.divenyi/Documents/sheridynswim/exploratory_email.R",
+		"/home/janos.divenyi/.gitconfig",
+		"/home/janos.divenyi/.config/gtk-3.0/gtk.css",
+		"/home/janos.divenyi/.config/sublime-text-3/Packages/User/R-Box/packages.R",
+		"/home/janos.divenyi/.inputrc",
+		"/home/janos.divenyi/work/rare_loyals/src/try.R",
+		"/home/janos.divenyi/.config/sublime-text-3/Packages/User/JSON.sublime-settings",
+		"/home/janos.divenyi/.config/sublime-text-3/Packages/User/hashmark-headline-comment.sublime-snippet",
+		"/home/janos.divenyi/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/usr/share/X11/xkb/symbols/us",
+		"/etc/apt/sources.list"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 96.0,
+		"where_history":
+		[
+			"src/",
+			"<project>",
+			"",
+			".",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"expand",
+			"sent_at",
+			"2",
+			"1",
+			"1000",
+			"Absolute",
+			"input",
+			" ",
+			"open_rate_sim",
+			"calculated_open_rate",
+			"open_rate",
+			"head(open_rate_data, 1000)",
+			"}\n    open_rate_data",
+			"prob",
+			", prob_column",
+			"sim_prob",
+			"relative",
+			"Open",
+			"calculateTable",
+			"h4",
+			"getData",
+			"deviation",
+			"-open_rate_",
+			"deviation",
+			"open_rate_by_contact",
+			"contact",
+			"open_rate_by_contact",
+			"contact",
+			"| ",
+			"customer_id",
+			"by_contact",
+			"deviation",
+			"send_time",
+			"open_hour",
+			"customer_ids",
+			"deviation",
+			"open_hour",
+			"src",
+			"range",
+			"range_plot",
+			"src",
+			"deviation_data",
+			"_sim",
+			"try",
+			"dataFileName",
+			"GetDistribution",
+			"sliderInput",
+			"percentOfBuyers",
+			"n_trials",
+			"mydf",
+			"NULL",
+			"NEXT",
+			"MONTH",
+			"NEXT",
+			"MONTH",
+			"NEXT",
+			"MONTH",
+			"SELECT",
+			"SELECT coalesce(this.contact_id, next.contact_id) AS c,\n       this.month,\n       next.month\nFROM\n  (SELECT contact_id,\n          sum(sales_amount) as sales,\n          substring(purchase_date, 1, 7) AS MONTH\n   FROM sheridynswim.fct_purchases\n   WHERE purchase_date >= '2014-11-01'\n     AND purchase_date < '2014-12-01'\n   GROUP BY (contact_id,\n             MONTH)) this\nFULL JOIN\n  (SELECT DISTINCT contact_id,\n                   substring(purchase_date, 1, 7) AS MONTH\n   FROM sheridynswim.fct_purchases p\n   WHERE purchase_date >= '2014-12-01'\n     AND purchase_date < '2015-01-01') NEXT ON (this.contact_id = NEXT.contact_id)",
+			"NEXT",
+			"SELECT *\nFROM\n  (SELECT c.source_id,\n          sum(p.sales_amount),\n          substring(p.purchase_date, 1, 7) AS MONTH\n   FROM sheridynswim.fct_purchases p\n   LEFT JOIN sheridynswim.dim_contact c ON (p.contact_id = c.id)\n   WHERE p.purchase_date >= '2014-11-01'\n     AND p.purchase_date < '2014-12-01'\n     AND c.source_id IS NOT NULL\n   GROUP BY (c.source_id,\n             MONTH)) this\nLEFT OUTER JOIN\n  (SELECT DISTINCT c.source_id,\n                   substring(p.purchase_date, 1, 7) AS MONTH\n   FROM sheridynswim.fct_purchases p\n   LEFT JOIN sheridynswim.dim_contact c ON (p.contact_id = c.id)\n   WHERE p.purchase_date >= '2014-12-01'\n     AND p.purchase_date < '2015-01-01'\n     AND c.source_id IS NOT NULL) next ON this.source_id = next.source_id",
+			",\n",
+			"email.sends.",
+			"5",
+			"SELECT contact_id,\n       campaign_id,\n       llid,\n       sent_at\nFROM email_sends\nWHERE customer_id = 291547333 LIMIT 5;",
+			";",
+			"no",
+			"data_in_model",
+			"base =",
+			"base = \"this month\"",
+			"result",
+			"training",
+			"result_dt",
+			"%>%",
+			" %>%",
+			"Sum",
+			"Summ",
+			"Summi",
+			"select",
+			"true",
+			"alt+/",
+			"alt",
+			"sent_at",
+			"“word_separators”",
+			"hey",
+			"start_year",
+			"GetDates",
+			"Getdates",
+			"purchase_date",
+			"purchases",
+			"start_year",
+			"r,",
+			",",
+			"purchase_date",
+			"start_year",
+			"3",
+			"GetDates",
+			"work",
+			"2013",
+			"source",
+			"contact_id",
+			"setnames",
+			"SummariseEmail",
+			"Date",
+			"ignore",
+			"\"",
+			"\", ",
+			"contact_id\",",
+			"\"",
+			"email behaviour",
+			"read_csv",
+			"n_emails"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			";"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "rare-loyals.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 79,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								79,
+								79
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"open_with_edit": true,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SQLExec":
+	{
+		"height": 336.0
+	},
+	"output.SQLExec.errors":
+	{
+		"height": 130.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "rare-loyals.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"app",
+				"sending-time-optimization/sending_time_optimization_explore/app.R"
+			],
+			[
+				"test",
+				"~/work/sending-time-optimization/test/test-calculate_relative_rates.R"
+			],
+			[
+				"aut",
+				"tmp/autotest.R"
+			],
+			[
+				"auto",
+				"sending-time-optimization/open_rate_deviation/autotest.R"
+			],
+			[
+				"read",
+				"sending-time-optimization/src/readData.R"
+			],
+			[
+				"relat",
+				"sending-time-optimization/src/sql/relative_open_rate_by_contact.sql"
+			],
+			[
+				"open",
+				"sending-time-optimization/src/sql/open_rate_by_contact.sql"
+			],
+			[
+				"test-bi",
+				"tmp/test-binom.R"
+			],
+			[
+				"bin",
+				"tmp/binom.R"
+			],
+			[
+				"avera",
+				"sending-time-optimization/src/average_campaign_open_rates.R"
+			],
+			[
+				"globa",
+				"sending-time-optimization/sending_time_optimization_explore/global.R"
+			],
+			[
+				"bino",
+				"tmp/binom.R"
+			],
+			[
+				"send-time-explor",
+				"sending-time-optimization/sending_time_optimization_explore/server.R"
+			],
+			[
+				"data/tv123",
+				"sending-time-optimization/data/relative_open_rate_deviation/tv123-relative_open_rate_deviation.csv"
+			],
+			[
+				"ui.",
+				"sending-time-optimization/open_rate_deviation/ui.R"
+			],
+			[
+				"deviationui",
+				"sending-time-optimization/open_rate_deviation/ui.R"
+			],
+			[
+				"open_rate_by_ca",
+				"sending-time-optimization/src/sql/open_rate_by_campaign.sql"
+			],
+			[
+				"ser",
+				"sending-time-optimization/open_rate_deviation_by_contact/server.R"
+			],
+			[
+				"try",
+				"try.R"
+			],
+			[
+				"sim",
+				"sending-time-optimization/src/simulate_open_rates.R"
+			],
+			[
+				"sentim",
+				"sending-time-optimization/src/sql/open_rate_by_send_time.sql"
+			],
+			[
+				"sthis",
+				"sending-time-optimization/src/sql/stHist.sql"
+			],
+			[
+				"dbtool",
+				"sending-time-optimization/src/dbtools.R"
+			],
+			[
+				"custo",
+				"engagement-score/data/SI_customer_ids.csv"
+			],
+			[
+				"server",
+				"sending-time-optimization/server.R"
+			],
+			[
+				"cre",
+				"sending-time-optimization/src/create_open_rate_deviations.R"
+			],
+			[
+				"valueserver",
+				"value-control-simulation/server.R"
+			],
+			[
+				"sendinser",
+				"sending-time-optimization/server.R"
+			],
+			[
+				"sendinopenserv",
+				"sending-time-optimization/open_rate_deviation_by_contact/server.R"
+			],
+			[
+				"valuecontrui",
+				"value-control-simulation/ui.R"
+			],
+			[
+				"sendopenui",
+				"sending-time-optimization/open_rate_deviation_by_contact/ui.R"
+			],
+			[
+				"sendinui",
+				"sending-time-optimization/ui.R"
+			],
+			[
+				"glob",
+				"sending-time-optimization/global.R"
+			],
+			[
+				"sendopenrategl",
+				"sending-time-optimization/open_rate_deviation_by_contact/global.R"
+			],
+			[
+				"dbtools",
+				"sending-time-optimization/src/dbtools.R"
+			],
+			[
+				"readd",
+				"sending-time-optimization/src/readData.R"
+			],
+			[
+				"src/sql",
+				"sending-time-optimization/src/sql/open_rate_by_send_time.sql"
+			],
+			[
+				"simu",
+				"sending-time-optimization/src/simulate_open_rates.R"
+			],
+			[
+				"ex",
+				"exchange-rate-scraper/exchange-rate-scraper.R"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/.sublime-projects/sending-time-optimization.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 467.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,36 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"All Autocomplete",
+		"Boxy Theme",
+		"BracketHighlighter",
+		"Color Highlighter",
+		"Colorsublime",
+		"Git",
+		"GitGutter",
+		"MarkdownEditing",
+		"Numix Theme",
+		"Package Control",
+		"PackageResourceViewer",
+		"ProjectManager",
+		"R-Box",
+		"SendREPL",
+		"SideBarEnhancements",
+		"Stata Enhanced",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeLinter-contrib-lintr",
+		"Sublimerge 3",
+		"Tomorrow Color Schemes",
+		"zz File Icons"
+	],
+	"repositories":
+	[
+		"https://github.com/mtxr/SQLTools"
+	]
+}

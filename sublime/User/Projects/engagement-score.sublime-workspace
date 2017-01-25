@@ -1,0 +1,1544 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"transf",
+				"transform_data_for_prediction"
+			],
+			[
+				"fill",
+				"fillNAsWithZeros"
+			],
+			[
+				"customer_",
+				"customer_ids"
+			],
+			[
+				"choose",
+				"choose_db"
+			],
+			[
+				"choo",
+				"choose_db"
+			],
+			[
+				"custom",
+				"customer_id"
+			],
+			[
+				"month",
+				"MONTH"
+			],
+			[
+				"trans",
+				"transformToWide"
+			],
+			[
+				"rocData",
+				"rocDataFrame"
+			],
+			[
+				"join",
+				"joinActivityForTargetMonth"
+			],
+			[
+				"target",
+				"target_month"
+			],
+			[
+				"featu",
+				"feature_dt"
+			],
+			[
+				"summary",
+				"summaryRprof"
+			],
+			[
+				"sample",
+				"sample_dt"
+			],
+			[
+				"calc",
+				"calculateSimulatedAbsoluteRelativeOpenRate"
+			],
+			[
+				"calcul",
+				"calculateProportionalRelativeOpenRates"
+			],
+			[
+				"calcu",
+				"calculateSimulateDistribution"
+			],
+			[
+				"getOpenRat",
+				"getOpenRateCampaignData"
+			],
+			[
+				"fun",
+				"fun\tfun"
+			],
+			[
+				"getEx",
+				"getExchangeRateVector"
+			],
+			[
+				"Creat",
+				"CreateContactData"
+			],
+			[
+				"conta",
+				"contact_dt"
+			],
+			[
+				"buys_",
+				"buys_in_next_month"
+			],
+			[
+				"buys",
+				"buys_in_next_month"
+			],
+			[
+				"Cr",
+				"create_descriptive_graph"
+			],
+			[
+				"CreateM",
+				"CreateMonthlyEmailData"
+			],
+			[
+				"CreateMo",
+				"CreateMonthlyPurchaseData"
+			],
+			[
+				"star",
+				"start_month"
+			],
+			[
+				"purchase",
+				"purchases_next_month"
+			],
+			[
+				"purchases",
+				"purchases_dt"
+			],
+			[
+				"purch",
+				"purchases_dt"
+			],
+			[
+				"purchas",
+				"purchase_date"
+			],
+			[
+				"purc",
+				"purchase_date"
+			],
+			[
+				"sent_at",
+				"sent_at_month"
+			],
+			[
+				"Create",
+				"CreateOpenTimeForEmail"
+			],
+			[
+				"Ge",
+				"GenFocusGroup"
+			],
+			[
+				"Load",
+				"LoadPurchaseData"
+			],
+			[
+				"focus",
+				"focus_group_df"
+			],
+			[
+				"sent",
+				"sent_at_month"
+			],
+			[
+				"sen",
+				"sent_at_month"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/jdivenyi/projects/engagement-score/src/train_models.R",
+			"settings":
+			{
+				"buffer_size": 4680,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/jdivenyi/projects/engagement-score/src/read_data.R",
+			"settings":
+			{
+				"buffer_size": 2180,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/jdivenyi/projects/engagement-score/src/sql/monthly_purchases.sql",
+			"settings":
+			{
+				"buffer_size": 801,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/jdivenyi/projects/engagement-score/src/sql/monthly_email.sql",
+			"settings":
+			{
+				"buffer_size": 2240,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 357.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"proj",
+				"Project: Close"
+			],
+			[
+				"edi",
+				"Project: Edit"
+			],
+			[
+				"rbox",
+				"Build With: R-Box"
+			],
+			[
+				"rbor",
+				"R-Box: Choose Program"
+			],
+			[
+				"err",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"lin",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"lint",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"package in",
+				"Package Control: Install Package"
+			],
+			[
+				"lint sho",
+				"SublimeLinter: Don’t Show Errors on Save"
+			],
+			[
+				"show",
+				"SublimeLinter: Show Errors on Save"
+			],
+			[
+				"lint mo",
+				"SublimeLinter: Choose Lint Mode"
+			],
+			[
+				"linter",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"bro",
+				"Preferences: Browse Packages"
+			],
+			[
+				"s",
+				"SQLExec: Desc Table"
+			],
+			[
+				"edit ",
+				"Project: Edit"
+			],
+			[
+				"saveas",
+				"Project: Save As"
+			],
+			[
+				"proje",
+				"Project: Edit Project"
+			],
+			[
+				"prefere",
+				"Preferences: Settings - User"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"intall ",
+				"Package Control: Install Package"
+			],
+			[
+				"pref",
+				"Preferences: Settings - User"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Ifelse"
+			],
+			[
+				"packare re",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"snipp",
+				"Snippet: Function"
+			],
+			[
+				":",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				":0",
+				":0 - BOF"
+			],
+			[
+				":$",
+				":$ - EOF"
+			],
+			[
+				"",
+				":0 - BOF"
+			],
+			[
+				"delet",
+				"File: Delete"
+			],
+			[
+				"d",
+				"File: Delete"
+			],
+			[
+				"dele",
+				"File: Delete"
+			],
+			[
+				"intl p",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"cta",
+				"CTags: Show Symbols (all)"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"align",
+				"Preferences: Alignment Key Bindings – Default"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"R-Bo",
+				"R-Box: Choose Program"
+			],
+			[
+				"pre",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 503.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/jdivenyi/projects/engagement-score",
+		"/Users/jdivenyi/projects/engagement-score/src",
+		"/Users/jdivenyi/projects/engagement-score/src/sql"
+	],
+	"file_history":
+	[
+		"/Users/jdivenyi/projects/engagement-score/src/read_data.R",
+		"/Users/jdivenyi/projects/engagement-score/src/sql/monthly_email.sql",
+		"/Users/jdivenyi/projects/engagement-score/data/SI_customer_ids.csv",
+		"/Users/jdivenyi/projects/defecting-probability/src/tools.R",
+		"/Users/jdivenyi/projects/engagement-score/src/db_tools.R",
+		"/Users/jdivenyi/projects/engagement-score/white_paper.md",
+		"/Users/jdivenyi/.hammerspoon/init.lua",
+		"/Users/jdivenyi/projects/engagement-score/packrat/packrat.lock",
+		"/Users/jdivenyi/projects/engagement-score/try.sql",
+		"/Users/jdivenyi/Library/Application Support/Sublime Text 3/Packages/User/Projects/engagement-score.sublime-project",
+		"/Users/jdivenyi/projects/engagement-score/packrat/lib/x86_64-apple-darwin13.4.0/3.2.3/Rcpp/include/Rcpp/sugar/functions/min.h",
+		"/home/janos.divenyi/projects/engagement-score/data/SI_customer_ids.csv",
+		"/home/janos.divenyi/projects/engagement-score/src/train_models.R",
+		"/home/janos.divenyi/projects/engagement-score/src/db_tools.R",
+		"/home/janos.divenyi/projects/engagement-score/src/read_data.R",
+		"/home/janos.divenyi/projects/engagement-score/src/sql/monthly_email.sql",
+		"/home/janos.divenyi/projects/engagement-score/.git/MERGE_MSG",
+		"/home/janos.divenyi/projects/engagement-score/src/put_together_features.R",
+		"/home/janos.divenyi/projects/sending-time-optimization/src/readData.R",
+		"/home/janos.divenyi/projects/engagement-score/src/sql/monthly_purchases.sql",
+		"/home/janos.divenyi/projects/engagement-score/src/gen_sql_query.R",
+		"/home/janos.divenyi/projects/engagement-score/config.R",
+		"/home/janos.divenyi/projects/engagement-score/test/test-put_together_data.R",
+		"/home/janos.divenyi/projects/sending-time-optimization/.gitignore",
+		"/home/janos.divenyi/projects/engagement-score/try.sql",
+		"/home/janos.divenyi/.Rprofile",
+		"/home/janos.divenyi/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
+		"/home/janos.divenyi/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/janos.divenyi/.config/sublime-text-3/Packages/User/R-Box/syntax.R",
+		"/home/janos.divenyi/.config/sublime-text-3/Packages/User/R-Box/syntax/R Functions.tmLanguage",
+		"/home/janos.divenyi/projects/engagement-score/try.csv",
+		"/home/janos.divenyi/projects/rare-loyals/src/create_descriptive_graph.R",
+		"/home/janos.divenyi/projects/engagement-score/autotest.R",
+		"/home/janos.divenyi/projects/exchange-rate-scraper/autotest.R",
+		"/home/janos.divenyi/.bash_aliases",
+		"/home/janos.divenyi/projects/rare_loyals/src/get_data.sql",
+		"/home/janos.divenyi/.sublime-projects/engagement-score.sublime-project",
+		"/home/janos.divenyi/.bashrc",
+		"/home/janos.divenyi/work/tmp/simulation.R",
+		"/home/janos.divenyi/work/sending-time-optimization/sending_time_optimization_explore/app.R",
+		"/home/janos.divenyi/work/tmp/.Rprofile",
+		"/home/janos.divenyi/work/tmp/autotest.R",
+		"/home/janos.divenyi/work/sending-time-optimization/open_rate_deviation/autotest.R",
+		"/home/janos.divenyi/work/sending-time-optimization/src/sql/relative_open_rate_by_contact.sql",
+		"/home/janos.divenyi/work/sending-time-optimization/src/sql/open_rate_by_contact.sql",
+		"/home/janos.divenyi/work/sending-time-optimization/src/sql/open_rate_by_campaign.sql",
+		"/home/janos.divenyi/work/tmp/binom.R",
+		"/home/janos.divenyi/work/tmp/test-binom.R",
+		"/home/janos.divenyi/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/janos.divenyi/.config/sublime-text-3/Packages/R-Box/R-Box.sublime-settings",
+		"/home/janos.divenyi/.config/sublime-text-3/Packages/User/R-Box.sublime-settings",
+		"/home/janos.divenyi/work/sending-time-optimization/src/average_campaign_open_rates.R",
+		"/home/janos.divenyi/work/sending-time-optimization/src/readData.R",
+		"/home/janos.divenyi/work/sending-time-optimization/sending_time_optimization_explore/global.R",
+		"/home/janos.divenyi/.gen_packrat_rprofile.sh",
+		"/home/janos.divenyi/work/sending-time-optimization/open_rate_deviation/ui.R",
+		"/home/janos.divenyi/work/sending-time-optimization/sending_time_optimization_explore/server.R",
+		"/home/janos.divenyi/work/sending-time-optimization/data/relative_open_rate_deviation/tv123-relative_open_rate_deviation.csv",
+		"/home/janos.divenyi/work/sending-time-optimization/open_rate_deviation_by_contact/app.R",
+		"/home/janos.divenyi/work/sending-time-optimization/open_rate_deviation_by_contact/ui.R",
+		"/home/janos.divenyi/work/sending-time-optimization/open_rate_deviation_by_contact/global.R",
+		"/home/janos.divenyi/work/tmp/ui.R",
+		"/home/janos.divenyi/work/tmp/server.R",
+		"/home/janos.divenyi/work/tmp/global.R",
+		"/home/janos.divenyi/work/tmp/app.R",
+		"/home/janos.divenyi/work/sending-time-optimization/open_rate_deviation_by_contact/server.R",
+		"/home/janos.divenyi/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/janos.divenyi/.config/sublime-text-3/Packages/User/SQLExec.sublime-settings",
+		"/home/janos.divenyi/.config/sublime-text-3/Packages/User/la.sublime-snippet",
+		"/home/janos.divenyi/.config/sublime-text-3/Packages/User/fun.sublime-snippet",
+		"/home/janos.divenyi/.config/sublime-text-3/Packages/User/lap.sublime-snippet",
+		"/home/janos.divenyi/work/sending-time-optimization/open_rate_by_campaign/app.R",
+		"/home/janos.divenyi/work/try.R",
+		"/home/janos.divenyi/.config/sublime-text-3/Packages/User/delete-file.py",
+		"/home/janos.divenyi/work/try.txt",
+		"/home/janos.divenyi/work/sending-time-optimization/.git/MERGE_MSG",
+		"/home/janos.divenyi/.config/sublime-text-3/Packages/User/app.sublime-snippet",
+		"/home/janos.divenyi/work/sending-time-optimization/src/dbtools.R",
+		"/home/janos.divenyi/work/sending-time-optimization/src/transform.R",
+		"/home/janos.divenyi/work/sending-time-optimization/src/sql/read_email_data_raw.sql",
+		"/home/janos.divenyi/work/sending-time-optimization/src/sql/stHist.sql",
+		"/home/janos.divenyi/work/sending-time-optimization/src/simulate_open_rates.R",
+		"/home/janos.divenyi/work/sending-time-optimization/src/sql/open_rate_by_send_time.sql",
+		"/home/janos.divenyi/work/sending-time-optimization/global.R",
+		"/home/janos.divenyi/work/sending-time-optimization/data/SI_customer_ids.csv",
+		"/home/janos.divenyi/work/engagement-score/data/SI_customer_ids.csv",
+		"/home/janos.divenyi/work/sending-time-optimization/ui.R",
+		"/home/janos.divenyi/work/sending-time-optimization/server.R",
+		"/home/janos.divenyi/work/analyse-value-control/server.R",
+		"/home/janos.divenyi/work/sending-time-optimization/src/sql/open_rate_deviation.sql",
+		"/home/janos.divenyi/work/value-control-simulation/server.R",
+		"/home/janos.divenyi/work/analyse-value-control/app.R",
+		"/home/janos.divenyi/work/sending-time-optimization/src/create_open_rate_deviations.R",
+		"/home/janos.divenyi/work/value-control-simulation/ui.R",
+		"/home/janos.divenyi/work/sending-time-optimization/src/try_email.csv",
+		"/home/janos.divenyi/work/value-control-simulation/app.R",
+		"/home/janos.divenyi/work/value-control-simulation/global.R",
+		"/home/janos.divenyi/work/value-control-simulation/src/simulate-value-control.R",
+		"/home/janos.divenyi/work/work.sublime-project",
+		"/home/janos.divenyi/work/value-control-simulation/test-value-control.R",
+		"/home/janos.divenyi/work/monthly_purchases.sql",
+		"/home/janos.divenyi/work/rare_loyals/src/predict_buy_from_email.R",
+		"/home/janos.divenyi/work/rare_loyals/src/get_data.sql",
+		"/home/janos.divenyi/work/test-value-control.R",
+		"/home/janos.divenyi/work/exchange-rate-scraper/test_exchange-rate-scraper.R",
+		"/home/janos.divenyi/work/exchange-rate-scraper/exchange-rate-scraper.R",
+		"/home/janos.divenyi/work/rare_loyals/src/create_descriptive_graph.R",
+		"/home/janos.divenyi/.config/sublime-text-3/Packages/Alignment/Default (Linux).sublime-keymap",
+		"/home/janos.divenyi/tmp/shiny/ui.R",
+		"/home/janos.divenyi/tmp/shiny/server.R",
+		"/home/janos.divenyi/tmp/shiny/global.R",
+		"/home/janos.divenyi/tmp/shiny/app.R",
+		"/home/janos.divenyi/.tmux.conf",
+		"/home/janos.divenyi/Documents/sheridynswim/exploratory_email.R",
+		"/home/janos.divenyi/.gitconfig",
+		"/home/janos.divenyi/.config/gtk-3.0/gtk.css",
+		"/home/janos.divenyi/.config/sublime-text-3/Packages/User/R-Box/packages.R",
+		"/home/janos.divenyi/.inputrc",
+		"/home/janos.divenyi/work/rare_loyals/src/try.R",
+		"/home/janos.divenyi/.config/sublime-text-3/Packages/User/JSON.sublime-settings",
+		"/home/janos.divenyi/.config/sublime-text-3/Packages/User/hashmark-headline-comment.sublime-snippet",
+		"/home/janos.divenyi/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/usr/share/X11/xkb/symbols/us",
+		"/etc/apt/sources.list"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 96.0,
+		"where_history":
+		[
+			"<project>",
+			"",
+			".",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"overlap",
+			"config",
+			"hds_config",
+			"hds_config.R",
+			"readData",
+			"full_data",
+			"sd",
+			"test_estimation_data",
+			"test_data",
+			"'2014-10-01'",
+			"'2015-11-01'\n",
+			"'2015-11-01'",
+			"wide_dt",
+			"=",
+			"file",
+			"year",
+			"x",
+			"2015",
+			"firebrick",
+			"rocData",
+			",",
+			"06",
+			"    ",
+			"   ",
+			"  ",
+			"     ",
+			"    ",
+			"features",
+			"fetures",
+			"dim",
+			"MONTH",
+			"n_buys",
+			" +",
+			"\", \"",
+			"id",
+			"sep",
+			"date_parts",
+			"as.date_parts",
+			"date_parts",
+			"date",
+			"merged",
+			"252923",
+			"Purchase",
+			"try_csv",
+			"sent_at",
+			"2",
+			"1",
+			"1000",
+			"Absolute",
+			"input",
+			" ",
+			"open_rate_sim",
+			"calculated_open_rate",
+			"open_rate",
+			"head(open_rate_data, 1000)",
+			"}\n    open_rate_data",
+			"prob",
+			", prob_column",
+			"sim_prob",
+			"relative",
+			"Open",
+			"calculateTable",
+			"h4",
+			"getData",
+			"deviation",
+			"-open_rate_",
+			"deviation",
+			"open_rate_by_contact",
+			"contact",
+			"open_rate_by_contact",
+			"contact",
+			"| ",
+			"customer_id",
+			"by_contact",
+			"deviation",
+			"send_time",
+			"open_hour",
+			"customer_ids",
+			"deviation",
+			"open_hour",
+			"src",
+			"range",
+			"range_plot",
+			"src",
+			"deviation_data",
+			"_sim",
+			"try",
+			"dataFileName",
+			"GetDistribution",
+			"sliderInput",
+			"percentOfBuyers",
+			"n_trials",
+			"mydf",
+			"NULL",
+			"NEXT",
+			"MONTH",
+			"NEXT",
+			"MONTH",
+			"NEXT",
+			"MONTH",
+			"SELECT",
+			"SELECT coalesce(this.contact_id, next.contact_id) AS c,\n       this.month,\n       next.month\nFROM\n  (SELECT contact_id,\n          sum(sales_amount) as sales,\n          substring(purchase_date, 1, 7) AS MONTH\n   FROM sheridynswim.fct_purchases\n   WHERE purchase_date >= '2014-11-01'\n     AND purchase_date < '2014-12-01'\n   GROUP BY (contact_id,\n             MONTH)) this\nFULL JOIN\n  (SELECT DISTINCT contact_id,\n                   substring(purchase_date, 1, 7) AS MONTH\n   FROM sheridynswim.fct_purchases p\n   WHERE purchase_date >= '2014-12-01'\n     AND purchase_date < '2015-01-01') NEXT ON (this.contact_id = NEXT.contact_id)",
+			"NEXT",
+			"SELECT *\nFROM\n  (SELECT c.source_id,\n          sum(p.sales_amount),\n          substring(p.purchase_date, 1, 7) AS MONTH\n   FROM sheridynswim.fct_purchases p\n   LEFT JOIN sheridynswim.dim_contact c ON (p.contact_id = c.id)\n   WHERE p.purchase_date >= '2014-11-01'\n     AND p.purchase_date < '2014-12-01'\n     AND c.source_id IS NOT NULL\n   GROUP BY (c.source_id,\n             MONTH)) this\nLEFT OUTER JOIN\n  (SELECT DISTINCT c.source_id,\n                   substring(p.purchase_date, 1, 7) AS MONTH\n   FROM sheridynswim.fct_purchases p\n   LEFT JOIN sheridynswim.dim_contact c ON (p.contact_id = c.id)\n   WHERE p.purchase_date >= '2014-12-01'\n     AND p.purchase_date < '2015-01-01'\n     AND c.source_id IS NOT NULL) next ON this.source_id = next.source_id",
+			",\n",
+			"email.sends.",
+			"5",
+			"SELECT contact_id,\n       campaign_id,\n       llid,\n       sent_at\nFROM email_sends\nWHERE customer_id = 291547333 LIMIT 5;",
+			";",
+			"no",
+			"data_in_model",
+			"base =",
+			"base = \"this month\"",
+			"result",
+			"training",
+			"result_dt",
+			"%>%",
+			" %>%",
+			"Sum",
+			"Summ",
+			"Summi",
+			"select",
+			"true",
+			"alt+/",
+			"alt",
+			"sent_at",
+			"“word_separators”",
+			"hey"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"SELECT contact_id,\n          YEAR,\n          MONTH,\n          n_emails,\n          (CASE WHEN n_emails > 0 THEN MAX(n_opens / n_emails, 0) :: NUMERIC \n                ELSE NA) AS open_rate,\n          (CASE WHEN n_emails > 0 THEN MAX(n_clicks / n_emails, 0) :: NUMERIC\n                ELSE NA) AS click_rate\n   FROM\n     (SELECT *\n      FROM\n        (SELECT contact_id,\n                YEAR,\n                MONTH,\n                count(*) AS n_emails\n         FROM\n           (SELECT contact_id,\n                   extract(YEAR\n                           FROM sent_at) AS YEAR,\n                   extract(MONTH\n                           FROM sent_at) AS MONTH\n            FROM email_sends\n            WHERE customer_id = 284302192\n              AND sent_at < '2015-11-01'\n              AND sent_at >= '2014-10-01') monthly_emails\n         GROUP BY contact_id,\n                  YEAR,\n                  MONTH) sends\n      LEFT JOIN\n        (SELECT contact_id,\n                YEAR,\n                MONTH,\n                count(*) AS n_opens\n         FROM\n           (SELECT contact_id,\n                   extract(YEAR\n                           FROM sent_at) AS YEAR,\n                   extract(MONTH\n                           FROM sent_at) AS MONTH\n            FROM email_opens\n            WHERE customer_id = 284302192\n              AND sent_at < '2015-11-01'\n              AND sent_at >= '2014-10-01') monthly_opens\n         GROUP BY contact_id,\n                  YEAR,\n                  MONTH) opens USING (contact_id,\n                                      YEAR,\n                                      MONTH)) sends_opens\n   LEFT JOIN\n     (SELECT contact_id,\n             YEAR,\n             MONTH,\n             count(*) AS n_clicks\n      FROM\n        (SELECT contact_id,\n                extract(YEAR\n                        FROM sent_at) AS YEAR,\n                extract(MONTH\n                        FROM sent_at) AS MONTH\n         FROM email_clicks\n         WHERE customer_id = 284302192\n           AND sent_at < '2015-11-01'\n           AND sent_at >= '2014-10-01') monthly_clicks\n      GROUP BY contact_id,\n               YEAR,\n               MONTH) clicks USING (contact_id,\n                                    YEAR,\n                                    MONTH)",
+			"10",
+			"Purchase",
+			"SELECT *\nFROM\n  (SELECT contact_id,\n          YEAR,\n          MONTH,\n          count(*) AS n_emails\n   FROM\n     (SELECT contact_id,\n             extract(YEAR\n                     FROM sent_at) AS YEAR,\n             extract(MONTH\n                     FROM sent_at) AS MONTH\n      FROM email_sends\n      WHERE customer_id = 284302192) monthly_emails\n   GROUP BY contact_id,\n            YEAR,\n            MONTH LIMIT 20) sends\nLEFT JOIN\n  (SELECT contact_id,\n          YEAR,\n          MONTH,\n          count(*) AS n_opens\n   FROM\n     (SELECT contact_id,\n             extract(YEAR\n                     FROM sent_at) AS YEAR,\n             extract(MONTH\n                     FROM sent_at) AS MONTH\n      FROM email_opens\n      WHERE customer_id = 284302192) monthly_opens\n   GROUP BY contact_id,\n            YEAR,\n            MONTH LIMIT 20) opens",
+			";"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/jdivenyi/projects/engagement-score/src/train_models.R",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4680,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								539,
+								540
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"r_box_status": false,
+							"syntax": "Packages/R-Box/syntax/R Extended.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 38.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/jdivenyi/projects/engagement-score/src/read_data.R",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2180,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								25,
+								25
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"r_box_status": false,
+							"syntax": "Packages/R-Box/syntax/R Extended.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/jdivenyi/projects/engagement-score/src/sql/monthly_purchases.sql",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 801,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"syntax": "Packages/SQL/SQL.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/jdivenyi/projects/engagement-score/src/sql/monthly_email.sql",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2240,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								485,
+								485
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										492,
+										493
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/round_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										447,
+										448
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"syntax": "Packages/SQL/SQL.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 146.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SQLExec":
+	{
+		"height": 336.0
+	},
+	"output.SQLExec.errors":
+	{
+		"height": 130.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 124.0
+	},
+	"pinned_build_system": "",
+	"project": "engagement-score.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"sql",
+				"src/sql/monthly_email.sql"
+			],
+			[
+				"rea",
+				"src/read_data.R"
+			],
+			[
+				"whi",
+				"white_paper.md"
+			],
+			[
+				"mon",
+				"src/sql/monthly_purchases.sql"
+			],
+			[
+				"read",
+				"src/read_data.R"
+			],
+			[
+				"ema",
+				"src/sql/monthly_email.sql"
+			],
+			[
+				"mont",
+				"src/sql/monthly_purchases.sql"
+			],
+			[
+				"test",
+				"test/test-put_together_data.R"
+			],
+			[
+				"app",
+				"sending-time-optimization/sending_time_optimization_explore/app.R"
+			],
+			[
+				"aut",
+				"tmp/autotest.R"
+			],
+			[
+				"auto",
+				"sending-time-optimization/open_rate_deviation/autotest.R"
+			],
+			[
+				"relat",
+				"sending-time-optimization/src/sql/relative_open_rate_by_contact.sql"
+			],
+			[
+				"open",
+				"sending-time-optimization/src/sql/open_rate_by_contact.sql"
+			],
+			[
+				"test-bi",
+				"tmp/test-binom.R"
+			],
+			[
+				"bin",
+				"tmp/binom.R"
+			],
+			[
+				"avera",
+				"sending-time-optimization/src/average_campaign_open_rates.R"
+			],
+			[
+				"globa",
+				"sending-time-optimization/sending_time_optimization_explore/global.R"
+			],
+			[
+				"bino",
+				"tmp/binom.R"
+			],
+			[
+				"send-time-explor",
+				"sending-time-optimization/sending_time_optimization_explore/server.R"
+			],
+			[
+				"data/tv123",
+				"sending-time-optimization/data/relative_open_rate_deviation/tv123-relative_open_rate_deviation.csv"
+			],
+			[
+				"ui.",
+				"sending-time-optimization/open_rate_deviation/ui.R"
+			],
+			[
+				"deviationui",
+				"sending-time-optimization/open_rate_deviation/ui.R"
+			],
+			[
+				"open_rate_by_ca",
+				"sending-time-optimization/src/sql/open_rate_by_campaign.sql"
+			],
+			[
+				"ser",
+				"sending-time-optimization/open_rate_deviation_by_contact/server.R"
+			],
+			[
+				"try",
+				"try.R"
+			],
+			[
+				"sim",
+				"sending-time-optimization/src/simulate_open_rates.R"
+			],
+			[
+				"sentim",
+				"sending-time-optimization/src/sql/open_rate_by_send_time.sql"
+			],
+			[
+				"sthis",
+				"sending-time-optimization/src/sql/stHist.sql"
+			],
+			[
+				"dbtool",
+				"sending-time-optimization/src/dbtools.R"
+			],
+			[
+				"custo",
+				"engagement-score/data/SI_customer_ids.csv"
+			],
+			[
+				"server",
+				"sending-time-optimization/server.R"
+			],
+			[
+				"cre",
+				"sending-time-optimization/src/create_open_rate_deviations.R"
+			],
+			[
+				"valueserver",
+				"value-control-simulation/server.R"
+			],
+			[
+				"sendinser",
+				"sending-time-optimization/server.R"
+			],
+			[
+				"sendinopenserv",
+				"sending-time-optimization/open_rate_deviation_by_contact/server.R"
+			],
+			[
+				"valuecontrui",
+				"value-control-simulation/ui.R"
+			],
+			[
+				"sendopenui",
+				"sending-time-optimization/open_rate_deviation_by_contact/ui.R"
+			],
+			[
+				"sendinui",
+				"sending-time-optimization/ui.R"
+			],
+			[
+				"glob",
+				"sending-time-optimization/global.R"
+			],
+			[
+				"sendopenrategl",
+				"sending-time-optimization/open_rate_deviation_by_contact/global.R"
+			],
+			[
+				"dbtools",
+				"sending-time-optimization/src/dbtools.R"
+			],
+			[
+				"readd",
+				"sending-time-optimization/src/readData.R"
+			],
+			[
+				"src/sql",
+				"sending-time-optimization/src/sql/open_rate_by_send_time.sql"
+			],
+			[
+				"simu",
+				"sending-time-optimization/src/simulate_open_rates.R"
+			],
+			[
+				"ex",
+				"exchange-rate-scraper/exchange-rate-scraper.R"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/.sublime-projects/sending-time-optimization.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 467.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

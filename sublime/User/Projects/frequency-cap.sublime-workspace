@@ -1,0 +1,1598 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"aggre",
+				"aggregate_by_week"
+			],
+			[
+				"num_send",
+				"num_send"
+			],
+			[
+				"calc",
+				"calculate_beta_from_click_rate"
+			],
+			[
+				"base",
+				"base_data"
+			],
+			[
+				"open",
+				"open	{base}"
+			],
+			[
+				"dt",
+				"dt	{stats}"
+			],
+			[
+				"cl",
+				"click_day"
+			],
+			[
+				"sydne",
+				"sydney_opens"
+			],
+			[
+				"filter",
+				"filter_hours"
+			],
+			[
+				"conta",
+				"contact_level_opens"
+			],
+			[
+				"expand",
+				"expand_contacts_to_hours"
+			],
+			[
+				"rele",
+				"relevant_hours"
+			],
+			[
+				"rel",
+				"relevant_hours"
+			],
+			[
+				"choose_s",
+				"choose_send_hour_by_p"
+			],
+			[
+				"opens",
+				"opens_dt"
+			],
+			[
+				"weigh",
+				"weighted.mean	{stats}"
+			],
+			[
+				"agg",
+				"aggregateToContactLevel"
+			],
+			[
+				"send",
+				"send_hour_level_dt"
+			],
+			[
+				"camp",
+				"campaign_click_rate"
+			],
+			[
+				"campa",
+				"campaign_id"
+			],
+			[
+				"email",
+				"email_clicks"
+			],
+			[
+				"cam",
+				"campaign_id"
+			],
+			[
+				"by",
+				"by"
+			],
+			[
+				"getLas",
+				"getLastSendData"
+			],
+			[
+				"sql",
+				"sql"
+			],
+			[
+				"open_ra",
+				"open_rates_dt"
+			],
+			[
+				"args",
+				"args"
+			],
+			[
+				"summary",
+				"summaryRprof"
+			],
+			[
+				"sample",
+				"sample_dt"
+			],
+			[
+				"calcul",
+				"calculateProportionalRelativeOpenRates"
+			],
+			[
+				"calcu",
+				"calculateSimulateDistribution"
+			],
+			[
+				"getOpenRat",
+				"getOpenRateCampaignData"
+			],
+			[
+				"fun",
+				"fun	fun"
+			],
+			[
+				"getEx",
+				"getExchangeRateVector"
+			],
+			[
+				"Creat",
+				"CreateContactData"
+			],
+			[
+				"buys_",
+				"buys_in_next_month"
+			],
+			[
+				"buys",
+				"buys_in_next_month"
+			],
+			[
+				"Cr",
+				"create_descriptive_graph"
+			],
+			[
+				"CreateM",
+				"CreateMonthlyEmailData"
+			],
+			[
+				"CreateMo",
+				"CreateMonthlyPurchaseData"
+			],
+			[
+				"star",
+				"start_month"
+			],
+			[
+				"purchase",
+				"purchases_next_month"
+			],
+			[
+				"purchases",
+				"purchases_dt"
+			],
+			[
+				"purch",
+				"purchases_dt"
+			],
+			[
+				"purchas",
+				"purchase_date"
+			],
+			[
+				"purc",
+				"purchase_date"
+			],
+			[
+				"sent_at",
+				"sent_at_month"
+			],
+			[
+				"Create",
+				"CreateOpenTimeForEmail"
+			],
+			[
+				"Ge",
+				"GenFocusGroup"
+			],
+			[
+				"Load",
+				"LoadPurchaseData"
+			],
+			[
+				"focus",
+				"focus_group_df"
+			],
+			[
+				"sent",
+				"sent_at_month"
+			],
+			[
+				"sen",
+				"sent_at_month"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/jdivenyi/projects/frequency-cap/src/weekly-frequency.sql",
+			"settings":
+			{
+				"buffer_size": 576,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/jdivenyi/projects/frequency-cap/app.R",
+			"settings":
+			{
+				"buffer_size": 101,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/jdivenyi/projects/frequency-cap/src/dbtools.R",
+			"settings":
+			{
+				"buffer_size": 950,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/jdivenyi/projects/frequency-cap/global.R",
+			"settings":
+			{
+				"buffer_size": 1637,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/jdivenyi/projects/frequency-cap/server.R",
+			"settings":
+			{
+				"buffer_size": 887,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/jdivenyi/projects/frequency-cap/ui.R",
+			"settings":
+			{
+				"buffer_size": 884,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 398.0,
+		"last_filter": "st:",
+		"selected_items":
+		[
+			[
+				"st:",
+				"ST: Table Description"
+			],
+			[
+				"add",
+				"Project: Add Folder"
+			],
+			[
+				"proje",
+				"Project Manager: Add Project"
+			],
+			[
+				"proj",
+				"Project: Close"
+			],
+			[
+				"ke",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"project",
+				"Project Manager"
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				"sql",
+				"SQLExec: History"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"prefke",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"pref",
+				"Preferences: Settings - User"
+			],
+			[
+				"edi",
+				"Project: Edit"
+			],
+			[
+				"wor",
+				"Word Wrap: Toggle"
+			],
+			[
+				"prefere",
+				"Preferences: Settings - User"
+			],
+			[
+				"linter",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"intall ",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Ifelse"
+			],
+			[
+				"packare re",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"package in",
+				"Package Control: Install Package"
+			],
+			[
+				"snipp",
+				"Snippet: Function"
+			],
+			[
+				":",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				":0",
+				":0 - BOF"
+			],
+			[
+				":$",
+				":$ - EOF"
+			],
+			[
+				"",
+				":0 - BOF"
+			],
+			[
+				"delet",
+				"File: Delete"
+			],
+			[
+				"d",
+				"File: Delete"
+			],
+			[
+				"dele",
+				"File: Delete"
+			],
+			[
+				"intl p",
+				"Package Control: Install Package"
+			],
+			[
+				"cta",
+				"CTags: Show Symbols (all)"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"align",
+				"Preferences: Alignment Key Bindings – Default"
+			],
+			[
+				"R-Bo",
+				"R-Box: Choose Program"
+			],
+			[
+				"pre",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 599.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/jdivenyi/projects/frequency-cap",
+		"/Users/jdivenyi/projects/frequency-cap/src"
+	],
+	"file_history":
+	[
+		"/Users/jdivenyi/.zshrc",
+		"/Users/jdivenyi/.Rprofile",
+		"/Users/jdivenyi/projects/frequency-cap/src/dbtools.R",
+		"/Users/jdivenyi/projects/sending-time-optimization/src/bayesian_bandit.R",
+		"/Users/jdivenyi/projects/sending-time-optimization/open_rate_deviation/ui.R",
+		"/Users/jdivenyi/projects/sending-time-optimization/src/sql/sto.sql",
+		"/Users/jdivenyi/projects/sending-time-optimization/src/sql/numbers_by_send_time.sql",
+		"/Users/jdivenyi/projects/sending-time-optimization/src/oren_algorithm.R",
+		"/Users/jdivenyi/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/jdivenyi/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/jdivenyi/projects/sending-time-optimization/src/sql/open_rate_by_send_time.sql",
+		"/Users/jdivenyi/projects/sending-time-optimization/src/sql/click_times.sql",
+		"/Users/jdivenyi/projects/sending-time-optimization/src/open_rate_if_last_action.R",
+		"/Users/jdivenyi/projects/sending-time-optimization/src/sql/send_open_click_times.sql",
+		"/Users/jdivenyi/projects/sending-time-optimization/src/sql/send_send_to_open.sql",
+		"/Users/jdivenyi/projects/sending-time-optimization/src/sql/optimize.sql",
+		"/Users/jdivenyi/projects/sending-time-optimization/src/sql/sydney-average_open_rate.sql",
+		"/Users/jdivenyi/projects/sending-time-optimization/sending_time_optimization_explore/ui.R",
+		"/Users/jdivenyi/projects/sending-time-optimization/data/sydney_customers.csv",
+		"/Users/jdivenyi/projects/sending-time-optimization/packrat/lib/x86_64-apple-darwin13.4.0/3.2.3/BH/include/boost/accumulators/statistics_fwd.hpp",
+		"/Users/jdivenyi/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/jdivenyi/Google Drive/teaching/Internal/Stata_to_R/Stata_to_R_to_Janos/05_OrangeJuice/13_OJ.R",
+		"/Users/jdivenyi/Library/Application Support/Sublime Text 3/Packages/User/SQLExec.sublime-settings",
+		"/Users/jdivenyi/Library/Application Support/Sublime Text 3/Packages/SQLExec/Default (OSX).sublime-keymap",
+		"/Users/jdivenyi/Library/Application Support/Sublime Text 3/Packages/SQLExec/SQLExec.sublime-settings",
+		"/Users/jdivenyi/.bashrc",
+		"/Users/jdivenyi/projects/sending-time-optimization/src/dbtools.R",
+		"/Users/jdivenyi/Library/Application Support/Sublime Text 3/Packages/User/Projects/sending-time-optimization.sublime-project",
+		"/home/janos.divenyi/projects/sending-time-optimization/open_rate_deviation/app.R",
+		"/home/janos.divenyi/projects/sending-time-optimization/open_rate_deviation/server.R",
+		"/home/janos.divenyi/projects/sending-time-optimization/src/click_open_relation.R",
+		"/home/janos.divenyi/projects/sending-time-optimization/src/simulate_open_rates.R",
+		"/home/janos.divenyi/projects/sending-time-optimization/src/readData.R",
+		"/home/janos.divenyi/projects/sending-time-optimization/open_rate_deviation/global.R",
+		"/home/janos.divenyi/projects/sending-time-optimization/src/sql/relative_open_rate_by_contact.sql",
+		"/home/janos.divenyi/projects/sending-time-optimization/packrat/packrat.lock",
+		"/home/janos.divenyi/projects/sending-time-optimization/problematic_clicks.csv",
+		"/home/janos.divenyi/projects/sending-time-optimization/data/SI_customer_ids.csv",
+		"/home/janos.divenyi/projects/sending-time-optimization/src/aggragete_rates_over_months.R",
+		"/home/janos.divenyi/projects/sending-time-optimization/src/sql/open_click_rate_by_contact.sql",
+		"/home/janos.divenyi/projects/sending-time-optimization/src/aggregate_last_action.R",
+		"/home/janos.divenyi/projects/sending-time-optimization/src/relate_open_click.R",
+		"/home/janos.divenyi/projects/sending-time-optimization/data/last_action/lesara-last_click.csv",
+		"/home/janos.divenyi/projects/sending-time-optimization/src/sql/last_action.sql",
+		"/home/janos.divenyi/projects/sending-time-optimization/src/dbtools.R",
+		"/home/janos.divenyi/projects/sending-time-optimization/open_rate_deviation/ui.R",
+		"/home/janos.divenyi/projects/sending-time-optimization/src/sql/hist.sql",
+		"/home/janos.divenyi/projects/sending-time-optimization/src/sql/otHist.sql",
+		"/home/janos.divenyi/projects/sending-time-optimization/src/sql/ctHist.sql",
+		"/home/janos.divenyi/projects/sending-time-optimization/src/sql/open_rate_by_campaign.sql",
+		"/home/janos.divenyi/projects/sending-time-optimization/pilot_bounce.txt",
+		"/home/janos.divenyi/projects/sending-time-optimization/src/calculate_relative_rates.R",
+		"/home/janos.divenyi/scripts/program_delays.R",
+		"/home/janos.divenyi/scripts/program_delays.sh",
+		"/home/janos.divenyi/scripts/try.csv",
+		"/home/janos.divenyi/.config/sublime-text-3/Packages/User/R-Box/syntax.R",
+		"/home/janos.divenyi/projects/sending-time-optimization/try.csv",
+		"/home/janos.divenyi/.config/sublime-text-3/Packages/User/Projects/sending-time-optimization.sublime-project",
+		"/home/janos.divenyi/.bashrc",
+		"/home/janos.divenyi/.bash_aliases",
+		"/home/janos.divenyi/.config/sublime-text-3/Packages/User/R-Box.sublime-settings",
+		"/home/janos.divenyi/.config/sublime-text-3/Packages/R-Box/R-Box.sublime-settings",
+		"/home/janos.divenyi/projects/sending-time-optimization/src/sql/open_rate_by_send_time.sql",
+		"/home/janos.divenyi/work/tmp/simulation.R",
+		"/home/janos.divenyi/.Rprofile",
+		"/home/janos.divenyi/work/sending-time-optimization/sending_time_optimization_explore/app.R",
+		"/home/janos.divenyi/work/tmp/.Rprofile",
+		"/home/janos.divenyi/work/tmp/autotest.R",
+		"/home/janos.divenyi/work/sending-time-optimization/open_rate_deviation/autotest.R",
+		"/home/janos.divenyi/work/sending-time-optimization/src/sql/relative_open_rate_by_contact.sql",
+		"/home/janos.divenyi/work/sending-time-optimization/src/sql/open_rate_by_contact.sql",
+		"/home/janos.divenyi/work/sending-time-optimization/src/sql/open_rate_by_campaign.sql",
+		"/home/janos.divenyi/work/tmp/binom.R",
+		"/home/janos.divenyi/work/tmp/test-binom.R",
+		"/home/janos.divenyi/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/janos.divenyi/work/sending-time-optimization/src/average_campaign_open_rates.R",
+		"/home/janos.divenyi/work/sending-time-optimization/src/readData.R",
+		"/home/janos.divenyi/work/sending-time-optimization/sending_time_optimization_explore/global.R",
+		"/home/janos.divenyi/.gen_packrat_rprofile.sh",
+		"/home/janos.divenyi/work/sending-time-optimization/open_rate_deviation/ui.R",
+		"/home/janos.divenyi/work/sending-time-optimization/sending_time_optimization_explore/server.R",
+		"/home/janos.divenyi/work/sending-time-optimization/data/relative_open_rate_deviation/tv123-relative_open_rate_deviation.csv",
+		"/home/janos.divenyi/work/sending-time-optimization/open_rate_deviation_by_contact/app.R",
+		"/home/janos.divenyi/work/sending-time-optimization/open_rate_deviation_by_contact/ui.R",
+		"/home/janos.divenyi/work/sending-time-optimization/open_rate_deviation_by_contact/global.R",
+		"/home/janos.divenyi/work/tmp/ui.R",
+		"/home/janos.divenyi/work/tmp/server.R",
+		"/home/janos.divenyi/work/tmp/global.R",
+		"/home/janos.divenyi/work/tmp/app.R",
+		"/home/janos.divenyi/work/sending-time-optimization/open_rate_deviation_by_contact/server.R",
+		"/home/janos.divenyi/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/janos.divenyi/.config/sublime-text-3/Packages/User/SQLExec.sublime-settings",
+		"/home/janos.divenyi/.config/sublime-text-3/Packages/User/la.sublime-snippet",
+		"/home/janos.divenyi/.config/sublime-text-3/Packages/User/fun.sublime-snippet",
+		"/home/janos.divenyi/.config/sublime-text-3/Packages/User/lap.sublime-snippet",
+		"/home/janos.divenyi/work/sending-time-optimization/open_rate_by_campaign/app.R",
+		"/home/janos.divenyi/work/try.R",
+		"/home/janos.divenyi/.config/sublime-text-3/Packages/User/delete-file.py",
+		"/home/janos.divenyi/work/try.txt",
+		"/home/janos.divenyi/work/sending-time-optimization/.git/MERGE_MSG",
+		"/home/janos.divenyi/.config/sublime-text-3/Packages/User/app.sublime-snippet",
+		"/home/janos.divenyi/work/sending-time-optimization/src/dbtools.R",
+		"/home/janos.divenyi/work/sending-time-optimization/src/transform.R",
+		"/home/janos.divenyi/work/sending-time-optimization/src/sql/read_email_data_raw.sql",
+		"/home/janos.divenyi/work/sending-time-optimization/src/sql/stHist.sql",
+		"/home/janos.divenyi/work/sending-time-optimization/src/simulate_open_rates.R",
+		"/home/janos.divenyi/work/sending-time-optimization/src/sql/open_rate_by_send_time.sql",
+		"/home/janos.divenyi/work/sending-time-optimization/global.R",
+		"/home/janos.divenyi/work/sending-time-optimization/data/SI_customer_ids.csv",
+		"/home/janos.divenyi/work/engagement-score/data/SI_customer_ids.csv",
+		"/home/janos.divenyi/work/sending-time-optimization/ui.R",
+		"/home/janos.divenyi/work/sending-time-optimization/server.R",
+		"/home/janos.divenyi/work/analyse-value-control/server.R",
+		"/home/janos.divenyi/work/sending-time-optimization/src/sql/open_rate_deviation.sql",
+		"/home/janos.divenyi/work/value-control-simulation/server.R",
+		"/home/janos.divenyi/work/analyse-value-control/app.R",
+		"/home/janos.divenyi/work/sending-time-optimization/src/create_open_rate_deviations.R",
+		"/home/janos.divenyi/work/value-control-simulation/ui.R",
+		"/home/janos.divenyi/work/sending-time-optimization/src/try_email.csv",
+		"/home/janos.divenyi/work/value-control-simulation/app.R",
+		"/home/janos.divenyi/work/value-control-simulation/global.R",
+		"/home/janos.divenyi/work/value-control-simulation/src/simulate-value-control.R",
+		"/home/janos.divenyi/work/work.sublime-project",
+		"/home/janos.divenyi/work/value-control-simulation/test-value-control.R",
+		"/home/janos.divenyi/work/monthly_purchases.sql",
+		"/home/janos.divenyi/work/rare_loyals/src/predict_buy_from_email.R",
+		"/home/janos.divenyi/work/rare_loyals/src/get_data.sql",
+		"/home/janos.divenyi/work/test-value-control.R"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 96.0,
+		"where_history":
+		[
+			"<project>",
+			"",
+			".",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"transformData() %>% aggregate_by_num_send()",
+			"transformData() %>% aggregate_by_week()",
+			"avg_rate_per_week",
+			"output$",
+			"last_action_data",
+			"num_send",
+			"send",
+			"END ",
+			"end",
+			"END",
+			"alt.up     ",
+			"alt.up",
+			"/2",
+			") ",
+			"date_part",
+			"click",
+			"dt",
+			"value",
+			"num_open",
+			"num_click",
+			"252923",
+			"678917407",
+			"679543767",
+			"744423143",
+			"contact_id",
+			"open_rate_by_send_time",
+			".SD",
+			"x",
+			"+",
+			" +",
+			".SD",
+			"total_send",
+			"send",
+			",",
+			"week",
+			"filter_contacts",
+			"contact_level_opens",
+			"total_send",
+			"delete",
+			"select",
+			"send_hour",
+			"contact_level_rates",
+			"transformed_data",
+			"\nSELECT \n    extract('hour' FROM sent_at) send_hour,\n    sum((open_hour IS not NULL) :: INT4) opened,\n    count(*) total_send\nFROM email_sends\nLEFT JOIN email_opens USING (customer_id,\n                             contact_id,\n                             campaign_id)\nWHERE customer_id = 274217033\nAND email_sends.sent_at > current_date - INTERVAL '2 week'\n",
+			"443075",
+			",   ",
+			"  ,",
+			"|",
+			"open_click_rate",
+			"SELECT",
+			"2 year",
+			"1 year",
+			"last_action_",
+			"last_action",
+			"2015-11-01",
+			"open_rates_dt",
+			"customize_ggvis",
+			"Data %>%",
+			"n)",
+			"n",
+			"last_send",
+			"dataFileName",
+			"Send",
+			"histData",
+			"sending",
+			"St",
+			"st",
+			"sending_hour",
+			"----------------",
+			"pct",
+			"SELECT",
+			"SELECT bounce_type, COUNT(*)\nFROM email_bounces \nwhere customer_id = 284913470\nGROUP BY bounce_type\n",
+			"actual_open_rate",
+			"setnames",
+			"mydt",
+			"getOpenRateContactData",
+			"neveropens",
+			"customer",
+			"value",
+			"delay",
+			"contact_num",
+			"delay",
+			"contact_num",
+			"mydt",
+			"myplot",
+			" ",
+			"get_sql_result",
+			"{",
+			"2",
+			"1",
+			"1000",
+			"Absolute",
+			"input",
+			" ",
+			"open_rate_sim",
+			"calculated_open_rate",
+			"open_rate",
+			"head(open_rate_data, 1000)",
+			"}\n    open_rate_data",
+			"prob",
+			", prob_column",
+			"sim_prob",
+			"relative",
+			"Open",
+			"calculateTable",
+			"h4",
+			"getData",
+			"deviation",
+			"-open_rate_",
+			"deviation",
+			"open_rate_by_contact",
+			"contact",
+			"open_rate_by_contact",
+			"contact",
+			"| ",
+			"customer_id",
+			"by_contact",
+			"deviation",
+			"send_time",
+			"open_hour",
+			"customer_ids",
+			"deviation",
+			"open_hour",
+			"src",
+			"range",
+			"range_plot",
+			"src",
+			"deviation_data"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			";"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/jdivenyi/projects/frequency-cap/src/weekly-frequency.sql",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 576,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								384,
+								384
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"_anf_new": "",
+							"bh_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"syntax": "Packages/SQL/SQL.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/jdivenyi/projects/frequency-cap/app.R",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 101,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								77,
+								77
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"r_box_status": false,
+							"syntax": "Packages/R-Box/syntax/R Extended.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/jdivenyi/projects/frequency-cap/src/dbtools.R",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 950,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								84,
+								84
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"r_box_status": false,
+							"syntax": "Packages/R-Box/syntax/R Extended.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/jdivenyi/projects/frequency-cap/global.R",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1637,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1439,
+								1439
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"r_box_status": true,
+							"syntax": "Packages/R-Box/syntax/R Extended.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 375.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/jdivenyi/projects/frequency-cap/server.R",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 887,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								749,
+								749
+							],
+							[
+								853,
+								853
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"r_box_status": false,
+							"syntax": "Packages/R-Box/syntax/R Extended.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/jdivenyi/projects/frequency-cap/ui.R",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 884,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								827,
+								827
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"r_box_status": false,
+							"syntax": "Packages/R-Box/syntax/R Extended.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "frequency-cap.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"u",
+				"open_rate_deviation/ui.R"
+			],
+			[
+				"sy",
+				"data/sydney_customers.csv"
+			],
+			[
+				"cus",
+				"data/SI_customer_ids.csv"
+			],
+			[
+				"relat",
+				"src/sql/relative_open_rate_by_contact.sql"
+			],
+			[
+				"agg",
+				"src/aggregate_last_action.R"
+			],
+			[
+				"ser",
+				"open_rate_deviation/server.R"
+			],
+			[
+				"si",
+				"data/SI_customer_ids.csv"
+			],
+			[
+				"rel",
+				"src/calculate_relative_rates.R"
+			],
+			[
+				"customer",
+				"data/SI_customer_ids.csv"
+			],
+			[
+				"sim",
+				"src/simulate_open_rates.R"
+			],
+			[
+				"db",
+				"src/dbtools.R"
+			],
+			[
+				".sql",
+				"src/sql/open_rate_by_send_time.sql"
+			],
+			[
+				"dbto",
+				"src/dbtools.R"
+			],
+			[
+				"read",
+				"src/readData.R"
+			],
+			[
+				"app",
+				"sending-time-optimization/sending_time_optimization_explore/app.R"
+			],
+			[
+				"test",
+				"~/work/sending-time-optimization/test/test-calculate_relative_rates.R"
+			],
+			[
+				"aut",
+				"tmp/autotest.R"
+			],
+			[
+				"auto",
+				"sending-time-optimization/open_rate_deviation/autotest.R"
+			],
+			[
+				"open",
+				"sending-time-optimization/src/sql/open_rate_by_contact.sql"
+			],
+			[
+				"test-bi",
+				"tmp/test-binom.R"
+			],
+			[
+				"bin",
+				"tmp/binom.R"
+			],
+			[
+				"avera",
+				"sending-time-optimization/src/average_campaign_open_rates.R"
+			],
+			[
+				"globa",
+				"sending-time-optimization/sending_time_optimization_explore/global.R"
+			],
+			[
+				"bino",
+				"tmp/binom.R"
+			],
+			[
+				"send-time-explor",
+				"sending-time-optimization/sending_time_optimization_explore/server.R"
+			],
+			[
+				"data/tv123",
+				"sending-time-optimization/data/relative_open_rate_deviation/tv123-relative_open_rate_deviation.csv"
+			],
+			[
+				"ui.",
+				"sending-time-optimization/open_rate_deviation/ui.R"
+			],
+			[
+				"deviationui",
+				"sending-time-optimization/open_rate_deviation/ui.R"
+			],
+			[
+				"open_rate_by_ca",
+				"sending-time-optimization/src/sql/open_rate_by_campaign.sql"
+			],
+			[
+				"try",
+				"try.R"
+			],
+			[
+				"sentim",
+				"sending-time-optimization/src/sql/open_rate_by_send_time.sql"
+			],
+			[
+				"sthis",
+				"sending-time-optimization/src/sql/stHist.sql"
+			],
+			[
+				"dbtool",
+				"sending-time-optimization/src/dbtools.R"
+			],
+			[
+				"custo",
+				"engagement-score/data/SI_customer_ids.csv"
+			],
+			[
+				"server",
+				"sending-time-optimization/server.R"
+			],
+			[
+				"cre",
+				"sending-time-optimization/src/create_open_rate_deviations.R"
+			],
+			[
+				"valueserver",
+				"value-control-simulation/server.R"
+			],
+			[
+				"sendinser",
+				"sending-time-optimization/server.R"
+			],
+			[
+				"sendinopenserv",
+				"sending-time-optimization/open_rate_deviation_by_contact/server.R"
+			],
+			[
+				"valuecontrui",
+				"value-control-simulation/ui.R"
+			],
+			[
+				"sendopenui",
+				"sending-time-optimization/open_rate_deviation_by_contact/ui.R"
+			],
+			[
+				"sendinui",
+				"sending-time-optimization/ui.R"
+			],
+			[
+				"glob",
+				"sending-time-optimization/global.R"
+			],
+			[
+				"sendopenrategl",
+				"sending-time-optimization/open_rate_deviation_by_contact/global.R"
+			],
+			[
+				"dbtools",
+				"sending-time-optimization/src/dbtools.R"
+			],
+			[
+				"readd",
+				"sending-time-optimization/src/readData.R"
+			],
+			[
+				"src/sql",
+				"sending-time-optimization/src/sql/open_rate_by_send_time.sql"
+			],
+			[
+				"simu",
+				"sending-time-optimization/src/simulate_open_rates.R"
+			],
+			[
+				"ex",
+				"exchange-rate-scraper/exchange-rate-scraper.R"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/.sublime-projects/engagement-score.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 398.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 508.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 467.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:name} <- function(${2:arguments}) { 
+    ${3:body}
+}
+]]></content>
+    <tabTrigger>fu</tabTrigger>
+    <scope>source.r</scope>
+</snippet>

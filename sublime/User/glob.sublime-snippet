@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+source('libraries.R')
+source('project_values.R')
+
+for (filename in list.files('src/')) {
+    source(paste0('src/', filename))
+}
+]]></content>
+    <tabTrigger>glob</tabTrigger>
+    <scope>source.r</scope>
+</snippet>

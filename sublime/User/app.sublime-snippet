@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+library(shiny)
+runApp(
+    '${1:}', 
+    host='0.0.0.0', port=${4321}, launch.browser=TRUE
+)
+]]></content>
+    <tabTrigger>app</tabTrigger>
+    <scope>source.r</scope>
+</snippet>

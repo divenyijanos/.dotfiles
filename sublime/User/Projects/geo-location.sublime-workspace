@@ -1,0 +1,1513 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"custom",
+				"customer_id\t(home_location_aggregated_data_update.sql)"
+			],
+			[
+				"contact_",
+				"contact_cities"
+			],
+			[
+				"cont",
+				"contact_id"
+			],
+			[
+				"location_aggregate_with_c",
+				"location_aggregate_with_country_aggregate_one_country"
+			],
+			[
+				"mon",
+				"monthly_location_aggregate"
+			],
+			[
+				"location",
+				"location_aggregate_with_country_aggregate"
+			],
+			[
+				"month",
+				"monthly_aggregate"
+			],
+			[
+				"home_location",
+				"home_location_availability"
+			],
+			[
+				"iden",
+				"identity\t{base}"
+			],
+			[
+				"exclu",
+				"excluded.x"
+			],
+			[
+				"exc",
+				"excluded.x"
+			],
+			[
+				"excl",
+				"excluded.y"
+			],
+			[
+				"pagro_c",
+				"pagro_cities_feb"
+			],
+			[
+				"get_su",
+				"get_summary_table"
+			],
+			[
+				"pagro",
+				"pagro_cities_feb_features"
+			],
+			[
+				"pag",
+				"pagro_cities_feb_features"
+			],
+			[
+				"top",
+				"top_cities"
+			],
+			[
+				"contact",
+				"contact_locations"
+			],
+			[
+				"ip_coun",
+				"ip_count_no_cell_corp"
+			],
+			[
+				"isp",
+				"isp_imputed"
+			],
+			[
+				"subnet",
+				"subnet_isp_avg"
+			],
+			[
+				"calc",
+				"calculate_performance"
+			],
+			[
+				"clash",
+				"clashing_events"
+			],
+			[
+				"geom_re",
+				"geom_raster\t{ggplot2}"
+			],
+			[
+				"ip_cou",
+				"ip_count_category"
+			],
+			[
+				"contac",
+				"contact_locations"
+			],
+			[
+				"2016-",
+				"2016-2-1"
+			],
+			[
+				"conne",
+				"connection_type"
+			],
+			[
+				"conta",
+				"contact_locations"
+			],
+			[
+				"filter",
+				"filtered_ip_data"
+			],
+			[
+				"hom",
+				"home_city"
+			],
+			[
+				"deg",
+				"deg2rad"
+			],
+			[
+				"blue",
+				"bluetomato_cities.csv"
+			],
+			[
+				"home_locations",
+				"monthly_home_location.sql"
+			],
+			[
+				"co",
+				"coordinates"
+			],
+			[
+				"y",
+				"scale_y_continuous\t{ggplot2}"
+			],
+			[
+				"coord",
+				"coordinates"
+			],
+			[
+				"home_locat",
+				"home_location11"
+			],
+			[
+				"home",
+				"home_location_multiple"
+			],
+			[
+				"scale_c",
+				"scale_color_discrete\t{ggplot2}"
+			],
+			[
+				"filter_",
+				"filter_suspicious_data"
+			],
+			[
+				"aggreg",
+				"aggregated_dt"
+			],
+			[
+				"opens",
+				"opens"
+			],
+			[
+				"conver",
+				"convertAddressToNumber"
+			],
+			[
+				"IP",
+				"IP2LOCATION-LITE-DB3.CSV"
+			],
+			[
+				"hist",
+				"histogram"
+			],
+			[
+				"group",
+				"groups_with_relevant_purchases_dt"
+			],
+			[
+				"gro",
+				"groups_with_relevant_purchases_dt"
+			],
+			[
+				"campaig",
+				"campaign_type"
+			],
+			[
+				"campaing",
+				"campaignColors"
+			],
+			[
+				"plot",
+				"plot"
+			],
+			[
+				"x_var",
+				"x_var"
+			],
+			[
+				"ope",
+				"open_rate_distribution_per_domain"
+			],
+			[
+				"campa",
+				"campaign_number"
+			],
+			[
+				"w",
+				"WHERE"
+			],
+			[
+				"cust",
+				"customer_ids"
+			],
+			[
+				"trans",
+				"transactional_email"
+			],
+			[
+				"delay_",
+				"delay_in_seconds"
+			],
+			[
+				"wid",
+				"width_slider"
+			],
+			[
+				"his",
+				"histogram_tooltip"
+			],
+			[
+				"R",
+				"R"
+			],
+			[
+				"summary",
+				"summaryRprof"
+			],
+			[
+				"sample",
+				"sample_dt"
+			],
+			[
+				"calcul",
+				"calculateProportionalRelativeOpenRates"
+			],
+			[
+				"calcu",
+				"calculateSimulateDistribution"
+			],
+			[
+				"getOpenRat",
+				"getOpenRateCampaignData"
+			],
+			[
+				"fun",
+				"fun\tfun"
+			],
+			[
+				"getEx",
+				"getExchangeRateVector"
+			],
+			[
+				"Creat",
+				"CreateContactData"
+			],
+			[
+				"buys_",
+				"buys_in_next_month"
+			],
+			[
+				"buys",
+				"buys_in_next_month"
+			],
+			[
+				"Cr",
+				"create_descriptive_graph"
+			],
+			[
+				"CreateM",
+				"CreateMonthlyEmailData"
+			],
+			[
+				"CreateMo",
+				"CreateMonthlyPurchaseData"
+			],
+			[
+				"star",
+				"start_month"
+			],
+			[
+				"purchase",
+				"purchases_next_month"
+			],
+			[
+				"purchases",
+				"purchases_dt"
+			],
+			[
+				"purch",
+				"purchases_dt"
+			],
+			[
+				"purchas",
+				"purchase_date"
+			],
+			[
+				"purc",
+				"purchase_date"
+			],
+			[
+				"sent_at",
+				"sent_at_month"
+			],
+			[
+				"Create",
+				"CreateOpenTimeForEmail"
+			],
+			[
+				"Ge",
+				"GenFocusGroup"
+			],
+			[
+				"Load",
+				"LoadPurchaseData"
+			],
+			[
+				"focus",
+				"focus_group_df"
+			],
+			[
+				"sent",
+				"sent_at_month"
+			],
+			[
+				"sen",
+				"sent_at_month"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/jdivenyi/.zshrc",
+			"settings":
+			{
+				"buffer_size": 4412,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/jdivenyi/.aliases",
+			"settings":
+			{
+				"buffer_size": 1192,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/SendREPL/R - Source File.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/R/R.sublime-build",
+					""
+				],
+				[
+					"Packages/SendREPL/R - Source File.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/SendREPL/R - Source File.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 357.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"proje",
+				"Project: Close"
+			],
+			[
+				"ren",
+				"File: Rename"
+			],
+			[
+				"repl",
+				"SendREPL: Choose REPL Program"
+			],
+			[
+				"send",
+				"SendREPL: Choose REPL Program"
+			],
+			[
+				"new fold",
+				"File: New Folder Relative to Project Root"
+			],
+			[
+				"sen",
+				"SendREPL: Choose REPL Program"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pref",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"edi",
+				"Project: Edit"
+			],
+			[
+				"projec",
+				"Project: Close"
+			],
+			[
+				"e",
+				"Project: Edit"
+			],
+			[
+				"snippet",
+				"Snippet: app"
+			],
+			[
+				"preset",
+				"Preferences: Settings - Default"
+			],
+			[
+				"add fo",
+				"Project: Add Folder"
+			],
+			[
+				"proj",
+				"Project: Close"
+			],
+			[
+				"add",
+				"Project: Add Folder"
+			],
+			[
+				"edit ",
+				"Project: Edit"
+			],
+			[
+				"saveas",
+				"Project: Save As"
+			],
+			[
+				"prefere",
+				"Preferences: Settings - User"
+			],
+			[
+				"linter",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"intall ",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Ifelse"
+			],
+			[
+				"packare re",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"package in",
+				"Package Control: Install Package"
+			],
+			[
+				"snipp",
+				"Snippet: Function"
+			],
+			[
+				":",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				":0",
+				":0 - BOF"
+			],
+			[
+				":$",
+				":$ - EOF"
+			],
+			[
+				"",
+				":0 - BOF"
+			],
+			[
+				"delet",
+				"File: Delete"
+			],
+			[
+				"d",
+				"File: Delete"
+			],
+			[
+				"dele",
+				"File: Delete"
+			],
+			[
+				"intl p",
+				"Package Control: Install Package"
+			],
+			[
+				"cta",
+				"CTags: Show Symbols (all)"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"align",
+				"Preferences: Alignment Key Bindings – Default"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"R-Bo",
+				"R-Box: Choose Program"
+			],
+			[
+				"pre",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 503.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/jdivenyi/projects/geo-location",
+		"/Users/jdivenyi/projects/geo-location/config",
+		"/Users/jdivenyi/projects/geo-location/scripts",
+		"/Users/jdivenyi/projects/geo-location/sql",
+		"/Users/jdivenyi/projects/geo-location/src"
+	],
+	"file_history":
+	[
+		"/Users/jdivenyi/.aliases",
+		"/usr/local/bin/virtualenvwrapper.sh",
+		"/usr/local/bin/pip",
+		"/Users/jdivenyi/.zshrc",
+		"/usr/local/bin/pip3",
+		"/usr/bin/env",
+		"/usr/bin/en",
+		"/Users/jdivenyi/projects/geo-location/sql/home_location_from_aggregated_data.sql",
+		"/Users/jdivenyi/projects/geo-location/sql/home_location_aggregated_data_update.sql",
+		"/Users/jdivenyi/projects/geo-location/scripts/check-home-location-discrepancies.R",
+		"/Users/jdivenyi/projects/geo-location/sql/home_location_discrepancy_examples.sql",
+		"/Users/jdivenyi/projects/geo-location/sql/home_location_production_tmp_tables.sql",
+		"/Users/jdivenyi/projects/geo-location/sql/check_num_contacts_with_home_location.sql",
+		"/Users/jdivenyi/projects/geo-location/sql/home_location_production.sql",
+		"/Users/jdivenyi/projects/geo-location/sql/home_location_test_cases.sql",
+		"/Users/jdivenyi/tmp/tensorflow-trial/tensorflow-trial.py",
+		"/Users/jdivenyi/venice/bigdata/Data Research/probanapok/GaborKocsis/customer_segmentation_teufel.R",
+		"/Users/jdivenyi/projects/geo-location/pip",
+		"/usr/bin/python",
+		"/usr/local/bin/ipython3",
+		"/usr/local/bin/ipython",
+		"/Users/jdivenyi/ipython3",
+		"/Users/jdivenyi/tmp/tensorflow-trial/logistic-regression.R",
+		"/Users/jdivenyi/projects/geo-location/home_location_from_aggregated_data.sql",
+		"/Users/jdivenyi/projects/geo-location/sql/home_location_pipe.sql",
+		"/Users/jdivenyi/projects/geo-location/sql/looking_at_suspicious_ips.sql",
+		"/Users/jdivenyi/projects/geo-location/home_location_temp_table.sql",
+		"/Users/jdivenyi/projects/geo-location/db_config.yml",
+		"/Users/jdivenyi/projects/geo-location/sql/home_location_availability_by_customer.sql",
+		"/Users/jdivenyi/projects/geo-location/sql/clashing-events.sql",
+		"/Users/jdivenyi/projects/geo-location/global.R",
+		"/Users/jdivenyi/projects/geo-location/libraries.R",
+		"/Users/jdivenyi/projects/geo-location/home_location_pipe.sql",
+		"/Users/jdivenyi/projects/geo-location/scripts/analyze_suspicious_ips.R",
+		"/Users/jdivenyi/projects/geo-location/sql/banned_ips_mvp.sql",
+		"/Users/jdivenyi/projects/geo-location/scripts/pilot_summary_analysis.R",
+		"/Users/jdivenyi/projects/geo-location/scripts/pagro_explore.R",
+		"/Users/jdivenyi/projects/geo-location/scripts/compare_blue_tomato_cities.R",
+		"/Users/jdivenyi/projects/incentive-optimization/data/cunda20160101.json",
+		"/Users/jdivenyi/projects/predict-log-service/src/main/scala/com/emarsys/predictlog/PredictLogService.scala",
+		"/Users/jdivenyi/projects/geo-location/src/manipulate_data.R",
+		"/Users/jdivenyi/projects/geo-location/src/pagro_explore.R",
+		"/Users/jdivenyi/projects/geo-location/src/analyze_suspicious_ips.R",
+		"/Users/jdivenyi/projects/geo-location/src/compare_blue_tomato_cities.R",
+		"/Users/jdivenyi/projects/geo-location/src/pilot_summary_analysis.R",
+		"/Users/jdivenyi/projects/geo-location/src/home_location.sql",
+		"/Users/jdivenyi/projects/geo-location/src/home_location_availability_check.sql",
+		"/Users/jdivenyi/projects/geo-location/src/home_location_availability_by_customer.sql",
+		"/Users/jdivenyi/projects/geo-location/packrat/packrat.lock",
+		"/Users/jdivenyi/projects/geo-location/home_location_availability_by_customer.sql",
+		"/Users/jdivenyi/projects/geo-location/src/home_location_production.sql",
+		"/Users/jdivenyi/.hammerspoon/init.lua",
+		"/Users/jdivenyi/projects/geo-location/src/looking_at_suspicious_ips.sql",
+		"/Users/jdivenyi/projects/geo-location/packrat/lib/x86_64-apple-darwin13.4.0/3.2.3/magrittr/doc/magrittr.Rmd",
+		"/Users/jdivenyi/Library/Application Support/Sublime Text 3/Packages/R-Box/packages.R",
+		"/Users/jdivenyi/Library/Application Support/Sublime Text 3/Packages/packages.R",
+		"/Users/jdivenyi/projects/geo-location/src/banned_ips_mvp.sql",
+		"/Users/jdivenyi/projects/geo-location/src/pagro_cities.sql",
+		"/Users/jdivenyi/projects/geo-location/src/contacts_in_cities.sql",
+		"/Users/jdivenyi/projects/geo-location/src/pilot_coverage.sql",
+		"/Users/jdivenyi/projects/geo-location/app.R",
+		"/Users/jdivenyi/projects/geo-location/ui.R",
+		"/Users/jdivenyi/tmp/almos.sql",
+		"/Users/jdivenyi/projects/geo-location/server.R",
+		"/Users/jdivenyi/projects/geo-location/src/collect_clicks.sh",
+		"/Users/jdivenyi/projects/geo-location/src/collect_logs.sh",
+		"/Users/jdivenyi/.Rprofile",
+		"/Users/jdivenyi/projects/geo-location/try.sql",
+		"/Users/jdivenyi/projects/geo-location/src/worldremit_analysis.R",
+		"/Users/jdivenyi/projects/domain-reporting/src/des.R",
+		"/Users/jdivenyi/projects/geo-location/compare_blue_tomato_cities.R",
+		"/Users/jdivenyi/projects/geo-location/src/suspicious_ips.sql",
+		"/Users/jdivenyi/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/jdivenyi/projects/geo-location/data/cities_orig_eng.csv",
+		"/Users/jdivenyi/projects/geo-location/data/suspicious_ips.csv",
+		"/Users/jdivenyi/projects/geo-location/data/bluetomato_cities.csv",
+		"/Users/jdivenyi/projects/geo-location/data/suspicious_ips_subnet.csv",
+		"/Users/jdivenyi/projects/geo-location/data/bluetomato_cities_clean.csv",
+		"/Users/jdivenyi/projects/geo-location/data/bluetomato_cities_cleaned.csv",
+		"/Users/jdivenyi/projects/geo-location/data/bluetomato_home_locations_subnet_2016-04-21.csv",
+		"/Users/jdivenyi/projects/geo-location/data/pagro_contacts.csv",
+		"/Users/jdivenyi/projects/geo-location/.git/COMMIT_EDITMSG",
+		"/Users/jdivenyi/projects/geo-location/.gitignore",
+		"/Users/jdivenyi/Documents/MYTh.R",
+		"/Users/jdivenyi/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/jdivenyi/projects/geo-location/config/deploy.rb",
+		"/Users/jdivenyi/projects/geo-location/config/deploy/production.rb",
+		"/Users/jdivenyi/projects/geo-location/data/pagro_opens.csv",
+		"/Users/jdivenyi/projects/geo-location/pagro_explore.R",
+		"/Users/jdivenyi/projects/geo-location/src/make_csv_from_logs.sh",
+		"/Users/jdivenyi/projects/domain-reporting/src/run.R",
+		"/Users/jdivenyi/Library/Application Support/Sublime Text 3/Packages/User/Projects/geo-location.sublime-project",
+		"/Users/jdivenyi/.bashrc",
+		"/Users/jdivenyi/projects/sending-time-optimization/src/oren_algorithm.R",
+		"/Users/jdivenyi/.zsh",
+		"/Users/jdivenyi/.oh-my-zsh/oh-my-zsh.sh",
+		"/Users/jdivenyi/projects/save-list-node/config/deploy.rb",
+		"/Users/jdivenyi/.ssh/config",
+		"/Users/jdivenyi/projects/save-list-node/config/deploy/production.rb",
+		"/Users/jdivenyi/projects/save-list-node/ui.R",
+		"/Users/jdivenyi/projects/save-list-node/server.R",
+		"/Users/jdivenyi/projects/save-list-node/src/purchases.sql",
+		"/Users/jdivenyi/projects/save-list-node/src/generate_data.R",
+		"/Users/jdivenyi/projects/domain-reporting/data/cluster_limits.csv",
+		"/Users/jdivenyi/.bash_aliases",
+		"/Users/jdivenyi/projects/domain-reporting/.git/MERGE_MSG",
+		"/Users/jdivenyi/.gitconfig",
+		"/Users/jdivenyi/Library/Application Support/Sublime Text 3/Packages/User/Projects/save-list-node.sublime-project",
+		"/Users/jdivenyi/.bash_profile",
+		"/home/janos.divenyi/projects/save-list-node/global.R",
+		"/home/janos.divenyi/projects/save-list-node/ui.R",
+		"/home/janos.divenyi/projects/save-list-node/app.R",
+		"/home/janos.divenyi/projects/save-list-node/server.R",
+		"/home/janos.divenyi/projects/save-list-node/src/generate_data.R",
+		"/home/janos.divenyi/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/janos.divenyi/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/janos.divenyi/projects/save-list-node/src/purchases.sql",
+		"/home/janos.divenyi/projects/save-list-node/src/visualize.R",
+		"/home/janos.divenyi/projects/save-list-node/src/visualize_purchases.R",
+		"/home/janos.divenyi/.Rprofile",
+		"/home/janos.divenyi/projects/save-list-node/src/load_performance_measures.R",
+		"/home/janos.divenyi/.config/sublime-text-3/Packages/User/R-Box.sublime-settings",
+		"/home/janos.divenyi/.config/sublime-text-3/Packages/User/R Extended.sublime-settings",
+		"/home/janos.divenyi/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/janos.divenyi/projects/save-list-node/src/sql/purchases.sql",
+		"/home/janos.divenyi/projects/domain-reporting/src/dbtools.R",
+		"/home/janos.divenyi/projects/domain-reporting/app.R",
+		"/home/janos.divenyi/projects/domain-reporting/src/tools.R"
+	],
+	"find":
+	{
+		"height": 48.0
+	},
+	"find_in_files":
+	{
+		"height": 96.0,
+		"where_history":
+		[
+			"<project>",
+			"",
+			".",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"completion",
+			"select count(*) from",
+			"AT",
+			"Vienna",
+			"48.225834, 16.359432",
+			"47.1449, 8.1551",
+			"''",
+			"AND customer_id BETWEEN 566613938 AND 761547365-1",
+			"0101000020E61000008E78B29B19CD1D404E0D349F73794740",
+			"Vienna",
+			"UK",
+			"BETWEEN 566613938 AND 761547365-1",
+			"= 645781705",
+			"BETWEEN 566613938 AND 761547365-1",
+			"home_locations",
+			"tmp_home_location",
+			"294326292-1",
+			"288000000",
+			"2012713",
+			"290529008",
+			"#{@customer_id_range.last}",
+			"sum_visit",
+			"new_data",
+			"last_day_of_month",
+			"sum_inflated_visit",
+			"n_inflated_visit",
+			"nov",
+			"dec",
+			"new",
+			"old",
+			"cities_within_home",
+			"emsconnect",
+			"(2303773, 249109646)",
+			"290529008",
+			"contact_locations",
+			"contact_id = 249109646",
+			"2016-05-23",
+			"2016-05-16",
+			"2016-05-23",
+			"2016-05-16",
+			"3L",
+			"2L",
+			"1L",
+			"pagro_cities_features",
+			"feb",
+			"top_cities",
+			"darkblue",
+			"subnet_rules_cable",
+			"16-22",
+			"clashing_events_tenmin",
+			"darkblue",
+			"subnet_rules_cable",
+			"ip_rules",
+			"firebrick",
+			"all",
+			"2016-05-22",
+			"2016-05-16",
+			"clashing_events_day",
+			"284982226",
+			"563324605",
+			"133824868",
+			"116941523",
+			"133824868",
+			"116941523",
+			"284982226",
+			"2016-5-15",
+			"284982226",
+			",",
+			"723688",
+			" ",
+			"2016-04-27",
+			"2016-4-27",
+			"2016-1-27",
+			"299790080",
+			"contact_id",
+			"all_data",
+			"plot",
+			"ip_address",
+			"ips",
+			"subnet",
+			"#",
+			"vocklabruck",
+			"breitenbach",
+			"matrei",
+			"kirchheim",
+			" ",
+			"velden",
+			"pfaffenhofen",
+			"hopfgarten",
+			"saalfelden",
+			"kempten",
+			"feldkirchen",
+			"Odense",
+			",",
+			"hl",
+			"Tei., ",
+			", Kärnten",
+			", Neusiedlersee",
+			", Vorarlberg",
+			", Essex",
+			", essex",
+			", Essex",
+			", Kent",
+			", Cardigan",
+			", Norfolk",
+			", Cornwall",
+			", Berkshire",
+			",Lugo",
+			",lugo",
+			",Lugo",
+			",lugo",
+			",Lugo",
+			", Harjumaa",
+			", Wellington",
+			",cambs",
+			", Stamata",
+			", Serbia",
+			", Isle Of Wight",
+			", Isle of Wight",
+			", Guipuzcoa",
+			", Poland",
+			", Savoie",
+			", West Yorkshire",
+			", west yorkshire",
+			", Pinzgau",
+			", Clwyd",
+			", Wiltshire",
+			", Slovenia"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"customers[name == customer_name]",
+			"get_rates_for_each_chunk",
+			";"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/jdivenyi/.zshrc",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4412,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1977,
+								1977
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 812.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/jdivenyi/.aliases",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1192,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								146,
+								146
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 39.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 124.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "geo-location.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"tmp",
+				"sql/home_location_production_tmp_tables.sql"
+			],
+			[
+				"pro",
+				"sql/home_location_production.sql"
+			],
+			[
+				"db",
+				"db_config.yml"
+			],
+			[
+				"bann",
+				"sql/banned_ips_mvp.sql"
+			],
+			[
+				"ho",
+				"src/home_location.sql"
+			],
+			[
+				"src/",
+				"src/manipulate_data.R"
+			],
+			[
+				"home",
+				"src/home_location.sql"
+			],
+			[
+				".sql",
+				"src/contacts_in_cities.sql"
+			],
+			[
+				"coll",
+				"src/collect_clicks.sh"
+			],
+			[
+				"col",
+				"src/collect_logs.sh"
+			],
+			[
+				"colle",
+				"src/collect_clicks.sh"
+			],
+			[
+				"glob",
+				"global.R"
+			],
+			[
+				"ap",
+				"app.R"
+			],
+			[
+				"ui",
+				"ui.R"
+			],
+			[
+				"se",
+				"server.R"
+			],
+			[
+				"glo",
+				"global.R"
+			],
+			[
+				"blue",
+				"compare_blue_tomato_cities.R"
+			],
+			[
+				"citi",
+				"data/cities_orig_eng.csv"
+			],
+			[
+				"pag",
+				"src/pagro_explore.R"
+			],
+			[
+				"sus",
+				"data/suspicious_ips.csv"
+			],
+			[
+				"blu",
+				"data/bluetomato_cities_clean.csv"
+			],
+			[
+				"b",
+				"data/bluetomato_cities.csv"
+			],
+			[
+				"bl",
+				"data/bluetomato_cities.csv"
+			],
+			[
+				"com",
+				"compare_blue_tomato_cities.R"
+			],
+			[
+				"deplo",
+				"config/deploy.rb"
+			],
+			[
+				"prod",
+				"config/deploy/production.rb"
+			],
+			[
+				"s",
+				"server.R"
+			],
+			[
+				"ser",
+				"server.R"
+			],
+			[
+				"produ",
+				"config/deploy/production.rb"
+			],
+			[
+				"pur",
+				"src/purchases.sql"
+			],
+			[
+				"u",
+				"ui.R"
+			],
+			[
+				"app",
+				"app.R"
+			],
+			[
+				"too",
+				"packrat/lib-R/tools"
+			],
+			[
+				"tool",
+				"packrat/lib-R/tools"
+			],
+			[
+				"cus",
+				"data/customer_ids.csv"
+			],
+			[
+				"payin",
+				"data/paying_customers.csv"
+			],
+			[
+				"test",
+				"~/work/sending-time-optimization/test/test-calculate_relative_rates.R"
+			],
+			[
+				"aut",
+				"tmp/autotest.R"
+			],
+			[
+				"auto",
+				"sending-time-optimization/open_rate_deviation/autotest.R"
+			],
+			[
+				"read",
+				"sending-time-optimization/src/readData.R"
+			],
+			[
+				"relat",
+				"sending-time-optimization/src/sql/relative_open_rate_by_contact.sql"
+			],
+			[
+				"open",
+				"sending-time-optimization/src/sql/open_rate_by_contact.sql"
+			],
+			[
+				"test-bi",
+				"tmp/test-binom.R"
+			],
+			[
+				"bin",
+				"tmp/binom.R"
+			],
+			[
+				"avera",
+				"sending-time-optimization/src/average_campaign_open_rates.R"
+			],
+			[
+				"globa",
+				"sending-time-optimization/sending_time_optimization_explore/global.R"
+			],
+			[
+				"bino",
+				"tmp/binom.R"
+			],
+			[
+				"send-time-explor",
+				"sending-time-optimization/sending_time_optimization_explore/server.R"
+			],
+			[
+				"data/tv123",
+				"sending-time-optimization/data/relative_open_rate_deviation/tv123-relative_open_rate_deviation.csv"
+			],
+			[
+				"ui.",
+				"sending-time-optimization/open_rate_deviation/ui.R"
+			],
+			[
+				"deviationui",
+				"sending-time-optimization/open_rate_deviation/ui.R"
+			],
+			[
+				"open_rate_by_ca",
+				"sending-time-optimization/src/sql/open_rate_by_campaign.sql"
+			],
+			[
+				"try",
+				"try.R"
+			],
+			[
+				"sim",
+				"sending-time-optimization/src/simulate_open_rates.R"
+			],
+			[
+				"sentim",
+				"sending-time-optimization/src/sql/open_rate_by_send_time.sql"
+			],
+			[
+				"sthis",
+				"sending-time-optimization/src/sql/stHist.sql"
+			],
+			[
+				"dbtool",
+				"sending-time-optimization/src/dbtools.R"
+			],
+			[
+				"custo",
+				"engagement-score/data/SI_customer_ids.csv"
+			],
+			[
+				"server",
+				"sending-time-optimization/server.R"
+			],
+			[
+				"cre",
+				"sending-time-optimization/src/create_open_rate_deviations.R"
+			],
+			[
+				"valueserver",
+				"value-control-simulation/server.R"
+			],
+			[
+				"sendinser",
+				"sending-time-optimization/server.R"
+			],
+			[
+				"sendinopenserv",
+				"sending-time-optimization/open_rate_deviation_by_contact/server.R"
+			],
+			[
+				"valuecontrui",
+				"value-control-simulation/ui.R"
+			],
+			[
+				"sendopenui",
+				"sending-time-optimization/open_rate_deviation_by_contact/ui.R"
+			],
+			[
+				"sendinui",
+				"sending-time-optimization/ui.R"
+			],
+			[
+				"sendopenrategl",
+				"sending-time-optimization/open_rate_deviation_by_contact/global.R"
+			],
+			[
+				"dbtools",
+				"sending-time-optimization/src/dbtools.R"
+			],
+			[
+				"readd",
+				"sending-time-optimization/src/readData.R"
+			],
+			[
+				"src/sql",
+				"sending-time-optimization/src/sql/open_rate_by_send_time.sql"
+			],
+			[
+				"simu",
+				"sending-time-optimization/src/simulate_open_rates.R"
+			],
+			[
+				"ex",
+				"exchange-rate-scraper/exchange-rate-scraper.R"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/.sublime-projects/sending-time-optimization.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 357.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"# Aliases\n"
+			]
+		],
+		"width": 374.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 318.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
