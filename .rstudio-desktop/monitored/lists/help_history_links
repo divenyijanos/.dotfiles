@@ -1,0 +1,15 @@
+help/library/data.table/html/fwrite.html,R: Fast CSV writer
+help/library/stats/html/quantile.html,R: Sample Quantiles
+help/library/base/html/findInterval.html,R: Find Interval Numbers or Indices
+help/library/base/html/cut.html,R: Convert Numeric to Factor
+help/library/plotly/html/add_trace.html,R: Add trace(s) to a plotly visualization
+help/library/stringr/html/str_replace.html,R: Replace matched patterns in a string.
+help/library/RcppRoll/html/RcppRoll-exports.html,R: RcppRoll
+help/library/emsconnectr/html/querySuitesForCustomers.html,R: query from suites for specified customers
+help/library/base/html/lapply.html,R: Apply a Function over a List or Vector
+help/library/NULL/help/unique,unique
+help/library/data.table/html/duplicated.html,R: Determine Duplicate Rows
+help/library/data.table/html/IDateTime.html,R: Integer based date class
+help/library/ggplot2/html/geom_density.html,R: Display a smooth density estimate.
+help/library/base/html/Extremes.html,R: Maxima and Minima
+help/library/base/html/factor.html,R: Factors

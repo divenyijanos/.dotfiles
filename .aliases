@@ -1,7 +1,10 @@
 # basic OSX aliases
 alias ls='ls -G'
 alias ll='ls -FGlAhp'
+alias la='ls -la'
+alias lt='ls -lt'
 alias less='less -R'
+alias zshconfig='subl ~/.zshrc'
 
 alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
@@ -26,8 +29,6 @@ alias mven_si='mount -t smbfs //janos.divenyi@venice.ett.local/smart_insight ~/v
 
 
 # DB
-alias hds_sql='psql -h 10.22.0.211 -p 5432 -U hds -d hds'
-alias gp2_sql='psql -h 10.22.0.220 -p 5432 -U hds -d hds'
-alias si_sql='psql -h 10.22.0.211 -p 5432 -U si_implementations -d smart_insight'
-alias query_hds='sql2csv --db postgresql://hds@10.22.0.211:5432/hds'
-alias query_si='sql2csv --db postgresql://si_implementations@10.22.0.211:5432/smart_insight'
+alias hds_sql='psql -h 10.22.0.221 -p 5432 -U hds -d hds'
+alias gp1_sql='psql -h 10.22.0.211 -p 5432 -U hds -d hds'
+alias si_sql='psql -h 10.22.0.211 -p 5432 -U bigdata_ro -d smart_insight'

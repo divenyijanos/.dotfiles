@@ -54,7 +54,7 @@ plugins=(git brew z osx h zsh-syntax-highlighting)
 
 # User configuration
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/TeX/texbin:$HOME/bin:/Applications/Stata/StataMP.app/Contents/MacOS/"
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/usr/local/sbin:/sbin:/opt/X11/bin:/Library/TeX/texbin:$HOME/bin:/Applications/Stata/StataMP.app/Contents/MacOS"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -80,10 +80,7 @@ source $HOME/.aliases
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
+
 
 # Fix numeric keypad
 # 0 . Enter
@@ -109,6 +106,7 @@ bindkey -s "^[Oj" "*"
 bindkey -s "^[Oo" "/"
 bindkey -s "^[OX" "="
 
+bindkey "^U" "backward-kill-line"
 
 # My functions -----------------------------------------------------------------
 

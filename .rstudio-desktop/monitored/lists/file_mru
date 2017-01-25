@@ -1,0 +1,15 @@
+~/projects/sto-ops/src/calculate_metrics.R
+~/projects/sto-ops/db_config.yml
+~/projects/sto-ops/meta_db_config.yml
+~/projects/sto-ops/scripts/generate_sto_data.R
+~/projects/sto-ops/src/plot_tools.R
+~/projects/sto-ops/src/tools.R
+~/projects/sto-ops/src/fetch_data.R
+~/projects/sto-ops/scripts/create_webinar_plots.R
+~/projects/sto-ops/scripts/webinar_plots.R
+~/homeworks/Szuromi/ANALYSIS.md
+~/tmp/burn-meetup-shiny-modules/slides/burn-slides.Rpres
+~/courses/ceu/Bayesian_Econometrics/project/project.Rmd
+~/projects/incentive-optimization/src/clean_predict_data.R
+~/projects/sto-ops/scripts/customer_sto_explore.R
+~/projects/sto-ops/scripts/check_history.R

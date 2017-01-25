@@ -1,6 +1,7 @@
 options(digits = 4)
 options(max.print = 500)
 options(width = 200)
+options(datatable.print.class = TRUE, datatable.print.topn = 10, datatable.print.nrows = 20)
 
 cd <- setwd
 .myfuncs <- new.env()
