@@ -1,71 +1,145 @@
 local hyper = { "cmd", "alt", "ctrl", "shift" }
 
-hs.window.animationDuration = 0;
+-- Window management -----------------------------------------------------------
 
-hs.hotkey.bind(hyper, "h", function()
-  local win = hs.window.focusedWindow();
-  if not win then return end
+hs.window.animationDuration = 0
 
-  win:moveToUnit(hs.layout.left50)
+local sizes = {2, 3, 3/2}
+local fullScreenSizes = {1, 4/3, 2}
+
+local GRID = {w = 24, h = 24}
+hs.grid.setGrid(GRID.w .. 'x' .. GRID.h)
+hs.grid.MARGINX = 0
+hs.grid.MARGINY = 0
+
+local pressed = {
+  up = false,
+  down = false,
+  left = false,
+  right = false
+}
+
+function nextStep(dim, offs, cb)
+  if hs.window.focusedWindow() then
+    local axis = dim == 'w' and 'x' or 'y'
+    local oppDim = dim == 'w' and 'h' or 'w'
+    local oppAxis = dim == 'w' and 'y' or 'x'
+    local win = hs.window.frontmostWindow()
+    local id = win:id()
+    local screen = win:screen()
+
+    cell = hs.grid.get(win, screen)
+
+    local nextSize = sizes[1]
+    for i=1,#sizes do
+      if cell[dim] == GRID[dim] / sizes[i] and
+        (cell[axis] + (offs and cell[dim] or 0)) == (offs and GRID[dim] or 0)
+        then
+          nextSize = sizes[(i % #sizes) + 1]
+        break
+      end
+    end
+
+    cb(cell, nextSize)
+    if cell[oppAxis] ~= 0 and cell[oppAxis] + cell[oppDim] ~= GRID[oppDim] then
+      cell[oppDim] = GRID[oppDim]
+      cell[oppAxis] = 0
+    end
+
+    hs.grid.set(win, cell, screen)
+  end
+end
+
+
+function fullDimension(dim)
+  if hs.window.focusedWindow() then
+    local win = hs.window.frontmostWindow()
+    local id = win:id()
+    local screen = win:screen()
+    cell = hs.grid.get(win, screen)
+
+    if (dim == 'x') then
+      cell = '0,0 ' .. GRID.w .. 'x' .. GRID.h
+    else  
+      cell[dim] = GRID[dim]
+      cell[dim == 'w' and 'x' or 'y'] = 0
+    end
+
+    hs.grid.set(win, cell, screen)
+  end
+end
+
+hs.hotkey.bind(hyper, "j", function ()
+  pressed.down = true
+  if pressed.up then 
+    fullDimension('h')
+  else
+    nextStep('h', true, function (cell, nextSize)
+      cell.y = GRID.h - GRID.h / nextSize
+      cell.h = GRID.h / nextSize
+    end)
+  end
+end, function () 
+  pressed.down = false
 end)
 
-hs.hotkey.bind(hyper, "l", function()
-  local win = hs.window.focusedWindow();
-  if not win then return end
-
-  win:moveToUnit(hs.layout.right50)
+hs.hotkey.bind(hyper, "l", function ()
+  pressed.right = true
+  if pressed.left then 
+    fullDimension('w')
+  else
+    nextStep('w', true, function (cell, nextSize)
+      cell.x = GRID.w - GRID.w / nextSize
+      cell.w = GRID.w / nextSize
+    end)
+  end
+end, function () 
+  pressed.right = false
 end)
 
-hs.hotkey.bind(hyper, "u", function()
-  local win = hs.window.focusedWindow();
-  if not win then return end
-
-  win:moveToUnit'[0,0,50,50]'
+hs.hotkey.bind(hyper, "h", function ()
+  pressed.left = true
+  if pressed.right then 
+    fullDimension('w')
+  else
+    nextStep('w', false, function (cell, nextSize)
+      cell.x = 0
+      cell.w = GRID.w / nextSize
+    end)
+  end
+end, function () 
+  pressed.left = false
 end)
 
-hs.hotkey.bind(hyper, "j", function()
+hs.hotkey.bind(hyper, "k", function ()
+  pressed.up = true
+  if pressed.down then 
+      fullDimension('h')
+  else
+    nextStep('h', false, function (cell, nextSize)
+      cell.y = 0
+      cell.h = GRID.h / nextSize
+    end)
+  end
+end, function () 
+  pressed.up = false
+end)
+
+
+hs.hotkey.bind(hyper, "m", function()
+  local win = hs.window.focusedWindow();
+  if not win then return end
+  win:moveToScreen(win:screen():next())
+end)
+
+hs.hotkey.bind(hyper, "f", function()
   local win = hs.window.focusedWindow();
   if not win then return end
 
   win:moveToUnit(hs.layout.maximized)
 end)
 
-hs.hotkey.bind(hyper, "n", function()
-  local win = hs.window.focusedWindow();
-  if not win then return end
-
-  win:moveToUnit'[0,50,50,100]'
-end)
-
-
-hs.hotkey.bind(hyper, "[", function()
-  local win = hs.window.focusedWindow();
-  if not win then return end
-
-  win:moveToUnit'[50,0,100,50]'
-end)
-
-hs.hotkey.bind(hyper, "/", function()
-  local win = hs.window.focusedWindow();
-  if not win then return end
-
-  win:moveToUnit'[50,50,100,100]'
-end)
-
-hs.hotkey.bind(hyper, "0", function()
-  hs.reload()
-end)
-
-hs.hotkey.bind(hyper, "m", function()
-  local win = hs.window.focusedWindow();
-  if not win then return end
-
-  win:moveToScreen(win:screen():next())
-end)
-
-hs.hotkey.bind(hyper, "escape", function()
-  hs.caffeinate.startScreensaver()
-end)
+-- Applications ----------------------------------------------------------------
 
 local applicationHotkeys = {
   s = 'Sublime Text',
@@ -79,10 +153,9 @@ local applicationHotkeys = {
   w = 'Microsoft Word',
   x = 'Microsoft Excel',
   i = 'Microsoft Powerpoint',
-  f = 'Finder',
+  d = 'Finder',
   p = 'Preview',
-  c = 'Calendar',
-  k = 'Google Keep'
+  c = 'Calendar'
 }
 
 for key, app in pairs(applicationHotkeys) do
@@ -91,7 +164,7 @@ for key, app in pairs(applicationHotkeys) do
   end)
 end
 
--- Caffeine
+-- Caffeine --------------------------------------------------------------------
 
 local caffeine = hs.menubar.new()
 
@@ -124,6 +197,11 @@ hs.hotkey.bind(hyper, "`", function()
     toggleCaffeine()
 end)
 
+-- Lock ------------------------------------------------------------------------
+
+hs.hotkey.bind(hyper, "escape", function()
+  hs.caffeinate.startScreensaver()
+end)
 
 hs.notify.new({title="Hammerspoon", informativeText="Config loaded"}):send():release()
 
