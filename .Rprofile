@@ -11,8 +11,9 @@ cd <- setwd
 
 .myfuncs$setColorout <- function() { 
     setOutputColors256(
-        num = 11, negnum = 9, date = 12, stderror = 7, 
-        infinite = 13, false = 4, true = 6, const = 8,
+        normal = 2, number = 3, negnum = 9, date = 7,
+        true = 4, false = 1, string = 2,
+        stderror = 10, infinite = 6, const = 5,
         verbose = FALSE
     )
     message("Package colorout is loaded")
