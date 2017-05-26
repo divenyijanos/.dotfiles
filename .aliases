@@ -27,11 +27,13 @@ alias ga='git add'
 alias gd='git difftool'
 alias gst='git status'
 alias gp='git push'
-alias gpu='git pull'
+alias gu='git pull'
 alias gc='git commit --verbose'
 alias gcm='git commit --message'
+alias gca='git commit --amend'
 alias gs='git stash'
 alias gsa='git stash apply'
+alias gl="git log --graph --pretty='%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 
 # Programs
 alias rstudio='open -a Rstudio'
@@ -41,9 +43,10 @@ alias R='R --no-save'
 alias rmspaces="rename 'y/ /_/' *"
 alias gen_shiny='touch app.R global.R server.R ui.R'
 alias inventory='sort | uniq -c | sort -n'
-alias mven='mount -t smbfs //janos.divenyi@venice.ett.local/bigdata ~/venice/bigdata'
-alias mven_cran='mount -t smbfs //janos.divenyi@venice.ett.local/storage/emarsys-cran ~/venice/emarsys-cran'
-alias mven_si='mount -t smbfs //janos.divenyi@venice.ett.local/smart_insight ~/venice/SI'
+alias mdr='mount -t smbfs //budrdc02/bigdata/data_research ~/mount/data_research'
+alias mbd='mount -t smbfs //budrdc02/bigdata ~/mount/bigdata'
+alias mcran='mount -t smbfs //janos.divenyi@venice.ett.local/storage/emarsys-cran ~/mount/emarsys-cran'
+alias msi='mount -t smbfs //budrdc02/smart_insight ~/mount/SI'
 
 
 # DB
