@@ -17,9 +17,8 @@ PATH=$PATH:$HOME/bin:/Applications/Stata/StataMP.app/Contents/MacOS
 
 source $HOME/.aliases
 
-# keybinding
+# keybindings
 bindkey "^U" "backward-kill-line"
-
 
 # My functions -----------------------------------------------------------------
 
@@ -48,6 +47,23 @@ function use_my_rstudio_settings
     echo 'Rstudio uses my personal settings'
 }
 
+function link_db_configs
+{
+    ln -s ../db_config.yml .
+    ln -s ../meta_db_config.yml .
+    echo '*.yml' >> .gitignore
+}
+
+function update_dotfiles
+{
+    /bin/cp -r ~/.hammerspoon ~/.R ~/.rstudio-desktop ~/.dotfiles/
+    /bin/cp ~/.zshrc ~/.aliases ~/.zpreztorc ~/.gitconfig ~/.Rprofile ~/.dotfiles/
+
+}
+
+# Settings ---------------------------------------------------------------------
+
+setopt rm_star_silent
 
 # rbenv
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi

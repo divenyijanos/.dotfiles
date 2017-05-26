@@ -10,3 +10,22 @@
 	editor = subl -n -w
 [push]
 	default = simple
+
+[merge]
+    tool = sublimerge
+
+[mergetool]
+    prompt = false
+
+[mergetool "sublimerge"]
+    cmd = subl -n --wait \"$LOCAL\" \"$MERGED\" \"$REMOTE\" \"$BASE\" --command \"sublimerge_diff_views\"
+    trustExitCode = false
+
+[diff]
+    tool = sublimerge
+
+[difftool]
+    prompt = false
+
+[difftool "sublimerge"]
+    cmd = subl -n --wait \"$LOCAL\" \"$REMOTE\" --command \"sublimerge_diff_views {\\\"left_read_only\\\": true, \\\"right_read_only\\\": false}\"

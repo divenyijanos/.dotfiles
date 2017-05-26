@@ -1,15 +1,15 @@
-help/library/data.table/html/fwrite.html,R: Fast CSV writer
-help/library/stats/html/quantile.html,R: Sample Quantiles
-help/library/base/html/findInterval.html,R: Find Interval Numbers or Indices
-help/library/base/html/cut.html,R: Convert Numeric to Factor
-help/library/plotly/html/add_trace.html,R: Add trace(s) to a plotly visualization
+help/library/emsvisualizer/html/scale_color_discrete_ems.html,R: discrete color scale
+help/library/emsvisualizer/doc/plot_theme.html,Emarsys plot theme
+help/library/emsconnectr/html/getEnvNameOfCustomer.html,R: env name of customer
+help/library/emsconnectr/html/getIdFromName.html,R: suite customer id from customer name
+help/library/stringr/html/str_c.html,R: Join multiple strings into a single string.
 help/library/stringr/html/str_replace.html,R: Replace matched patterns in a string.
-help/library/RcppRoll/html/RcppRoll-exports.html,R: RcppRoll
-help/library/emsconnectr/html/querySuitesForCustomers.html,R: query from suites for specified customers
-help/library/base/html/lapply.html,R: Apply a Function over a List or Vector
-help/library/NULL/help/unique,unique
-help/library/data.table/html/duplicated.html,R: Determine Duplicate Rows
-help/library/data.table/html/IDateTime.html,R: Integer based date class
-help/library/ggplot2/html/geom_density.html,R: Display a smooth density estimate.
+help/library/stringr/html/str_match.html,R: Extract matched groups from a string.
+help/library/base/html/Round.html,R: Rounding of Numbers
+help/library/scales/html/percent_format.html,R: Percent formatter: multiply by one hundred and display...
+help/library/base/html/formatc.html,R: Formatting Using C-style Formats
+help/library/base/html/subset.html,"R: Subsetting Vectors, Matrices and Data Frames"
+help/library/NULL/help/split,split
+help/library/data.table/html/split.html,R: Split data.table into chunks in a list
 help/library/base/html/Extremes.html,R: Maxima and Minima
-help/library/base/html/factor.html,R: Factors
+help/library/emsconnectr/html/readSqlResult.html,R: read query result
