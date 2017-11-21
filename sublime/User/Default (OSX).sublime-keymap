@@ -1,5 +1,5 @@
 [
-    // 'jj' to exit 
+    // 'jj' to exit
     { "keys": ["j", "j"], "command": "exit_insert_mode",
         "context":
         [
@@ -8,29 +8,24 @@
         ]
     },
 
-    // Find all ubuntu-like
-    { "keys": ["alt+f3"], "command": "find_all_under" },
+    // new files sync
+    { "keys": ["super+n"], "command": "new_window" },
+    { "keys": ["super+t"], "command": "new_file" },
+    { "keys": ["super+shift+w"], "command": "close_window" },
+    { "keys": ["super+w"], "command": "close" },
+
 
     // Selections
     { "keys": ["ctrl+shift+space"], "command": "expand_selection", "args": {"to": "scope"} },
-    { "keys": ["ctrl+shift+m"], "command": "expand_selection", "args": {"to": "brackets"} },
-    { "keys": ["ctrl+m"], "command": "move_to", "args": {"to": "brackets"} },
     { "keys": ["ctrl+shift+j"], "command": "expand_selection", "args": {"to": "indentation"} },
     { "keys": ["ctrl+shift+a"], "command": "expand_selection", "args": {"to": "tag"} },
 
     // Delete line
     { "keys": ["super+shift+k"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
-    
+
     // Fold 1 level
     { "keys": ["super+k", "super+h"], "command": "fold_by_level", "args": {"level": 1} },
 
-    // Move cursor out of parentheses, quotes, brackets (use ctrl+')
-    { "keys": ["super+'"], "command": "move", "args": {"by": "characters", "forward": true}, "context":
-        [
-            { "key": "following_text", "operator": "regex_contains", "operand": "^[)\"'\\]}]", "match_all": true },
-            { "key": "auto_complete_visible", "operator": "equal", "operand": false }
-        ]
-    },
 
     // Dash till end of line
     { "keys": ["ctrl+w"], "command": "commenter_small" },
@@ -50,10 +45,6 @@
         ]
     },
 
-    // SQL
-    { "keys": ["ctrl+e, ctrl+l"], "command": "st_show_connection_menu" },
-    { "keys": ["ctrl+e", "ctrl+f"], "command": "st_format"},
-    
     // Other
     { "keys": ["alt+d"], "command": "goto_definition" },
     { "keys": ["ctrl+equals"], "command": "jump_forward" },
@@ -61,7 +52,9 @@
     { "keys": ["alt+down"], "command": "move", "args": {"by": "stops", "empty_line": true, "forward": true} },
     { "keys": ["shift+alt+up"], "command": "move", "args": {"by": "stops", "empty_line": true, "forward": false, "extend": true}},
     { "keys": ["shift+alt+down"], "command": "move", "args": {"by": "stops", "empty_line": true, "forward": true, "extend": true}},
-
+    { "keys": ["super+ctrl+k"], "command": "swap_line_up" },
+    { "keys": ["super+ctrl+j"], "command": "swap_line_down" },
+    { "keys": ["super+k, super+m"], "command": "toggle_minimap" },
 
     // Auto-pair backticks
     { "keys": ["`"], "command": "insert_snippet", "args": {"contents": "`$0`"}, "context":
@@ -92,6 +85,125 @@
             { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
             { "key": "preceding_text", "operator": "regex_contains", "operand": "`$", "match_all": true },
             { "key": "following_text", "operator": "regex_contains", "operand": "^`", "match_all": true }
+        ]
+    },
+
+    // Sublimerge
+    { "keys": ["ctrl+alt+down"], "command": "sublimerge_go_down", "context": [
+        {"key": "setting.is_sublimerge_view", "operator": "equal", "operand": true, "match_all": true}
+    ]},
+
+    { "keys": ["ctrl+alt+up"], "command": "sublimerge_go_up", "context": [
+        {"key": "setting.is_sublimerge_view", "operator": "equal", "operand": true, "match_all": true}
+    ]},
+
+    { "keys": ["ctrl+shift+d"], "command": "sublimerge_compare_revision_to_revision"},
+
+    // Git
+    { "keys": ["ctrl+s"], "command": "git_status"},
+    { "keys": ["ctrl+a"], "command": "git_raw", "args": { "command": "git add -A" }},
+    { "keys": ["ctrl+z"], "command": "git_add_choice"},
+    { "keys": ["ctrl+m"], "command": "git_commit"},
+    { "keys": ["ctrl+l"], "command": "git_graph_all"},
+    { "keys": ["ctrl+g"], "command": "git_log_all"},
+    { "keys": ["ctrl+d"], "command": "git_raw", "args": { "command": "git difftool", "append_current_file": true, "may_change_files": false }},
+    { "keys": ["ctrl+k"], "command": "git_quick_commit"},
+    { "keys": ["ctrl+p"], "command": "git_raw", "args": { "command": "git push", "may_change_files": false }},
+    { "keys": ["ctrl+u"], "command": "git_raw", "args": { "command": "git pull" }},
+
+    // CiteBibtex
+    { "keys": ["super+shift+c"], "command": "cite_bibtex_show_reference_selector" },
+
+    // Resize panes (PanePane)
+    { "keys": ["super+ctrl+left"], "command": "pane_pane_resize", "args": { "dimension": "width", "resize": "decrease" } },    // command + ctrl + > increase width
+    { "keys": ["super+ctrl+right"], "command": "pane_pane_resize", "args": { "dimension": "width", "resize": "increase" } },
+
+    // BracketHighlighter
+    // remove bracket only
+    { "keys": ["ctrl+shift+r"], "command": "bh_key", "args":
+        {
+            "no_outside_adj": null,
+            "lines" : true,
+            "plugin":
+            {
+                "type": ["__all__"],
+                "command": "bh_modules.bracketremove",
+                "args": {"remove_content": false, "remove_indent": false, "remove_block": false}
+            }
+        }
+    },
+    // remove indent as well
+    { "keys": ["ctrl+shift+i"], "command": "bh_key", "args":
+        {
+            "no_outside_adj": null,
+            "lines" : true,
+            "plugin":
+            {
+                "type": ["__all__"],
+                "command": "bh_modules.bracketremove",
+                "args": {"remove_content": false, "remove_indent": true, "remove_block": true}
+            }
+        }
+    },
+    // remove content as well
+    { "keys": ["ctrl+shift+c"], "command": "bh_key", "args":
+        {
+            "no_outside_adj": null,
+            "lines" : true,
+            "plugin":
+            {
+                "type": ["__all__"],
+                "command": "bh_modules.bracketremove",
+                "args": {"remove_content": true, "remove_indent": true, "remove_block": true}
+            }
+        }
+    },
+    // Go to left bracket
+    { "keys": ["ctrl+shift+,"], "command": "bh_key", "args":
+        {
+            "no_block_mode": null,
+            "lines" : true,
+            "plugin":
+            {
+                "no_outside_adj": null,
+                "type": ["__all__"],
+                "command": "bh_modules.bracketselect",
+                "args": {"select": "left"}
+            }
+        }
+    },
+    // Go to right bracket
+    { "keys": ["ctrl+shift+."], "command": "bh_key", "args":
+        {
+            "no_block_mode": null,
+            "lines" : true,
+            "plugin":
+            {
+                "no_outside_adj": null,
+                "type": ["__all__"],
+                "command": "bh_modules.bracketselect",
+                "args": {"select": "right"}
+            }
+        }
+    },
+    // Select text between brackets
+    { "keys": ["ctrl+shift+b"], "command": "bh_key", "args":
+        {
+            "no_outside_adj": null,
+            "lines" : true,
+            "plugin":
+            {
+                "type": ["__all__"],
+                "command": "bh_modules.bracketselect"
+            }
+        }
+    },
+
+    // Send code
+    { "keys": ["super+shift+enter"], "command": "send_code",
+        "args": {"cmd": "python -m unittest discover -p '*_test.py'; python -m flake8"},
+        "context": [
+            { "key": "selector", "operator": "equal", "operand": "source.python" }
         ]
     }
 ]

@@ -32,14 +32,14 @@ function gen_packrat_rprofile
     #### -- End Packrat Autoloader -- ####' > .Rprofile
 }
 
-function use_default_rstudio_settings 
+function use_default_rstudio_settings
 {
     mv ~/.rstudio-desktop ~/.backup-rstudio-desktop
     mv ~/.Rprofile ~/.backup-rprofile
     echo 'Rstudio uses default settings'
 }
 
-function use_my_rstudio_settings 
+function use_my_rstudio_settings
 {
     rm -r ~/.rstudio-desktop
     mv ~/.backup-rstudio-desktop ~/.rstudio-desktop
@@ -56,9 +56,9 @@ function link_db_configs
 
 function update_dotfiles
 {
-    /bin/cp -r ~/.hammerspoon ~/.R ~/.rstudio-desktop ~/.dotfiles/
-    /bin/cp ~/.zshrc ~/.aliases ~/.zpreztorc ~/.gitconfig ~/.Rprofile ~/.dotfiles/
-
+    /bin/cp -r ~/.hammerspoon ~/.R ~/.rstudio-desktop ~/bin/.dotfiles/
+    /bin/cp ~/.zshrc ~/.aliases ~/.zpreztorc ~/.gitconfig ~/.Rprofile ~/bin/.dotfiles/
+    /bin/cp ~/.zprezto/modules/prompt/functions/prompt_jerome_setup ~/bin/.dotfiles/
 }
 
 # Settings ---------------------------------------------------------------------

@@ -5,32 +5,41 @@
 	],
 	"installed_packages":
 	[
+		"A File Icon",
 		"AdvancedNewFile",
 		"All Autocomplete",
+		"Anaconda",
 		"Boxy Theme",
 		"BracketHighlighter",
+		"CiteBibtex",
+		"Citer",
 		"Color Highlighter",
 		"Colorsublime",
+		"Fix Mac Path",
 		"Git",
-		"GitGutter",
+		"Markdown Preview",
 		"MarkdownEditing",
-		"Numix Theme",
+		"Materialize",
 		"Package Control",
 		"PackageResourceViewer",
+		"Pandoc",
+		"PanePane",
 		"ProjectManager",
 		"R-Box",
-		"SendREPL",
+		"Scala Syntax",
+		"SendCode",
 		"SideBarEnhancements",
 		"Stata Enhanced",
 		"SublimeCodeIntel",
+		"SublimeHighlight",
 		"SublimeLinter",
 		"SublimeLinter-contrib-lintr",
+		"SublimeLinter-flake8",
 		"Sublimerge 3",
-		"Tomorrow Color Schemes",
-		"zz File Icons"
+		"Whitespace"
 	],
 	"repositories":
 	[
-		"https://github.com/mtxr/SQLTools"
+		"https://github.com/n1k0/SublimeHighlight/tree/python3"
 	]
 }

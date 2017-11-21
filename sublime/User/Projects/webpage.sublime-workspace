@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"trans",
+				"transform"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
 				"aggre",
 				"aggregate_sales"
 			],
@@ -38,10 +46,6 @@
 			[
 				"month",
 				"MONTH"
-			],
-			[
-				"trans",
-				"transformToWide"
 			],
 			[
 				"rocData",
@@ -176,64 +180,32 @@
 	"buffers":
 	[
 		{
-			"file": "/Users/jdivenyi/webpage/content/pages/home.md",
+			"file": "/Users/jdivenyi/webpage/content/pages/research.md",
 			"settings":
 			{
-				"buffer_size": 891,
+				"buffer_size": 4865,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/Users/jdivenyi/webpage/content/pages/data-analysis.md",
+			"file": "/Users/jdivenyi/webpage/content/pages/talks.md",
 			"settings":
 			{
-				"buffer_size": 2328,
+				"buffer_size": 1310,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/Users/jdivenyi/webpage/content/pages/da-homework-5.Rmd",
+			"contents": "Title: about me\n\n\nI am a PhD Candidate in Economics at the [Central European University](http://economics.ceu.edu){:target=\"_blank\"}. My research focuses on causal \nquestions in the field of labor economics. I am interested in public challenges such as population ageing, \nand, more recently, in how we can use the advances in data-related fields (e.g. machine learning) for social good. \nFor more details, please look at my [research](research.html) page.\n\nCurrently, I am on leave from my studies and work as a data scientist for [Emarsys](http://www.emarsys.com){:target=\"_blank\"}. \nI teach various data related courses at the Central European University, the Budapest University of Technology and Economics, \nand other institutions for advanced studies such as Mathias Corvinus Collegium, and Rajk László College.\n\nIf you want to know more about me, please look at my [resumé](../documents/Divenyi_resume.pdf){:target=\"_blank\"}.\n\n---\n\n\nI am a data scientist working for [Emarsys](emarsys.com) on automating personalized online marketing.\n\nEconomist thinking carefully about causality.\n\nMy background is in economics, currently I am a PhD Candidate in Economics at the [Central European University](http://economics.ceu.edu/). My research focuses on causal questions, mostly in the field of labor economics. I am\ninterested in public challenges such as population ageing. More recently,\nin how we can use the advances in data-related fields (e.g. machine learning) for social good. For more details, please look at my [research](./research) page.\n\nCurrently, I am on leave from my studies and work as a data scientist for\n[Emarsys](emarsys.com).  I teach various data related courses at the Central\nEuropean University, the Budapest University of Technology and Economics, and other institutions for advanced studies such as Mathias Corvinus Collegium, and Rajk László College.\n\nIf you want to know more about me, please look at my [resumé](../documents/Divenyi_resume.pdf).\n\n\ncausality, multi-armed bandit\nintuitive understanding of methods",
+			"file": "/Users/jdivenyi/webpage/content/pages/about-me.md",
+			"file_size": 932,
+			"file_write_time": 131516883350000000,
 			"settings":
 			{
-				"buffer_size": 3518,
+				"buffer_size": 2044,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/jdivenyi/webpage/content/pages/da-homework-5-solution.Rmd",
-			"settings":
-			{
-				"buffer_size": 3347,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/jdivenyi/webpage/content/pages/da-homework-3-solution.Rmd",
-			"settings":
-			{
-				"buffer_size": 3587,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/jdivenyi/webpage/pelicanconf.py",
-			"settings":
-			{
-				"buffer_size": 1334,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/jdivenyi/bin/header",
-			"settings":
-			{
-				"buffer_size": 1641,
 				"line_ending": "Unix"
 			}
 		}
@@ -245,10 +217,38 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 357.0,
-		"last_filter": "",
+		"height": 361.0,
+		"last_filter": "synmr",
 		"selected_items":
 		[
+			[
+				"synmr",
+				"Set Syntax: Markdown GFM"
+			],
+			[
+				"markdwogf",
+				"Set Syntax: Markdown GFM"
+			],
+			[
+				"syntax mar",
+				"Set Syntax: Markdown GFM"
+			],
+			[
+				"sem",
+				"Set Syntax: Markdown"
+			],
+			[
+				"wra",
+				"Word Wrap: Toggle"
+			],
+			[
+				"box",
+				"Boxy Theme: Activation"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
 			[
 				"proj",
 				"Project Manager: Edit Project"
@@ -406,10 +406,6 @@
 				"Package Control: Install Package"
 			],
 			[
-				"ins",
-				"Package Control: Install Package"
-			],
-			[
 				"pack",
 				"Package Control: Install Package"
 			],
@@ -430,7 +426,7 @@
 				"Preferences: Browse Packages"
 			]
 		],
-		"width": 503.0
+		"width": 476.0
 	},
 	"console":
 	{
@@ -454,28 +450,50 @@
 		"/Users/jdivenyi/webpage",
 		"/Users/jdivenyi/webpage/content",
 		"/Users/jdivenyi/webpage/content/documents",
-		"/Users/jdivenyi/webpage/content/pages",
 		"/Users/jdivenyi/webpage/output",
-		"/Users/jdivenyi/webpage/output/documents",
-		"/Users/jdivenyi/webpage/output/pages"
+		"/Users/jdivenyi/webpage/output/documents"
 	],
 	"file_history":
 	[
+		"/Users/jdivenyi/webpage/content/blog/iv-identifies-late.md",
+		"/Users/jdivenyi/webpage/content/blog/variable-selection.md",
+		"/Users/jdivenyi/webpage/pelicanconf.py",
+		"/Users/jdivenyi/.virtualenvs/webpage/lib/python3.6/site-packages/pelican/settings.py",
+		"/Users/jdivenyi/webpage/content/blog/my-favorite-chart-this-year.md",
+		"/Users/jdivenyi/webpage/content/blog/updated-favorite-chart.Rmd",
+		"/Users/jdivenyi/webpage/output/categories.html",
+		"/Users/jdivenyi/webpage/output/documents/plotly.html",
+		"/Users/jdivenyi/playground/coding-dojo/dojo-pisti-class",
+		"/Users/jdivenyi/webpage/work-in-progress/ab-testing.md",
+		"/Users/jdivenyi/webpage/content/extras/custom.css",
+		"/Users/jdivenyi/.zshrc",
+		"/Users/jdivenyi/webpage/output/just-for-the-record.html",
+		"/Users/jdivenyi/webpage/content/figure/favorite-plot-2-1.png",
+		"/Users/jdivenyi/.aliases",
+		"/Users/jdivenyi/webpage/output/static/custom.css",
+		"/Users/jdivenyi/webpage/work-in-progress/variable-selection.md",
+		"/Users/jdivenyi/webpage/content/pages/teaching.md",
+		"/Users/jdivenyi/webpage/output/pages/about-me.html",
+		"/Users/jdivenyi/webpage/output/command-line-tricks-how-to-count-lines-with-date-before-a-certain-date.html",
+		"/Users/jdivenyi/webpage/output/how-to-select-controls-if-you-are-interested-in-a-causal-effect.html",
+		"/Users/jdivenyi/webpage/content/blog/compare-performance-algorithms.md",
+		"/Users/jdivenyi/webpage/content/blog/ab-testing.md",
+		"/Users/jdivenyi/webpage/content/pages/da-homework-5-solution.Rmd",
+		"/Users/jdivenyi/webpage/content/pages/research.md",
+		"/Users/jdivenyi/webpage/content/pages/home.md",
+		"/Users/jdivenyi/webpage/content/pages/data-analysis.md",
+		"/Users/jdivenyi/bin/header",
+		"/Users/jdivenyi/webpage/content/pages/da-homework-5.Rmd",
+		"/Users/jdivenyi/webpage/content/pages/da-homework-3-solution.Rmd",
 		"/Users/jdivenyi/webpage/content/pages/da-homework-2-solution.Rmd",
 		"/Users/jdivenyi/Dropbox/research/Education/Code/NPB/MergeCohort.R",
 		"/Users/jdivenyi/Dropbox/research/Education/Code/NPB/CleanData.R",
-		"/Users/jdivenyi/webpage/pelicanconf.py",
 		"/Users/jdivenyi/webpage/content/pages/da-homework-2.Rmd",
 		"/Users/jdivenyi/webpage/content/pages/da-homework-3.Rmd",
-		"/Users/jdivenyi/webpage/content/pages/data-analysis.md",
-		"/Users/jdivenyi/.zshrc",
 		"/Users/jdivenyi/.dotfiles/.git/COMMIT_EDITMSG",
-		"/Users/jdivenyi/webpage/content/pages/research.md",
 		"/Users/jdivenyi/bin/rstudiod",
 		"/Users/jdivenyi/bin/rstudio_default",
-		"/Users/jdivenyi/webpage/content/pages/teaching.md",
 		"/Users/jdivenyi/webpage/content/pages/resources.md",
-		"/Users/jdivenyi/bin/header",
 		"/Users/jdivenyi/webpage/content/pages/programming-tools-i.md",
 		"/Users/jdivenyi/webpage/output/pages/da-homework-1.html",
 		"/Users/jdivenyi/webpage/da-homework-1.html",
@@ -564,35 +582,11 @@
 		"/home/janos.divenyi/work/sending-time-optimization/src/sql/read_email_data_raw.sql",
 		"/home/janos.divenyi/work/sending-time-optimization/src/sql/stHist.sql",
 		"/home/janos.divenyi/work/sending-time-optimization/src/simulate_open_rates.R",
-		"/home/janos.divenyi/work/sending-time-optimization/src/sql/open_rate_by_send_time.sql",
-		"/home/janos.divenyi/work/sending-time-optimization/global.R",
-		"/home/janos.divenyi/work/sending-time-optimization/data/SI_customer_ids.csv",
-		"/home/janos.divenyi/work/engagement-score/data/SI_customer_ids.csv",
-		"/home/janos.divenyi/work/sending-time-optimization/ui.R",
-		"/home/janos.divenyi/work/sending-time-optimization/server.R",
-		"/home/janos.divenyi/work/analyse-value-control/server.R",
-		"/home/janos.divenyi/work/sending-time-optimization/src/sql/open_rate_deviation.sql",
-		"/home/janos.divenyi/work/value-control-simulation/server.R",
-		"/home/janos.divenyi/work/analyse-value-control/app.R",
-		"/home/janos.divenyi/work/sending-time-optimization/src/create_open_rate_deviations.R",
-		"/home/janos.divenyi/work/value-control-simulation/ui.R",
-		"/home/janos.divenyi/work/sending-time-optimization/src/try_email.csv",
-		"/home/janos.divenyi/work/value-control-simulation/app.R",
-		"/home/janos.divenyi/work/value-control-simulation/global.R",
-		"/home/janos.divenyi/work/value-control-simulation/src/simulate-value-control.R",
-		"/home/janos.divenyi/work/work.sublime-project",
-		"/home/janos.divenyi/work/value-control-simulation/test-value-control.R",
-		"/home/janos.divenyi/work/monthly_purchases.sql",
-		"/home/janos.divenyi/work/rare_loyals/src/predict_buy_from_email.R",
-		"/home/janos.divenyi/work/rare_loyals/src/get_data.sql",
-		"/home/janos.divenyi/work/test-value-control.R",
-		"/home/janos.divenyi/work/exchange-rate-scraper/test_exchange-rate-scraper.R",
-		"/home/janos.divenyi/work/exchange-rate-scraper/exchange-rate-scraper.R",
-		"/home/janos.divenyi/work/rare_loyals/src/create_descriptive_graph.R"
+		"/home/janos.divenyi/work/sending-time-optimization/src/sql/open_rate_by_send_time.sql"
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 42.0
 	},
 	"find_in_files":
 	{
@@ -610,6 +604,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"ThEME",
+			"Alexandre",
+			"THEME",
+			")\\",
 			"echo = FALSE, eval = FALSE",
 			", echo=FALSE",
 			"aggregate_sales",
@@ -733,11 +731,7 @@
 			"Summi",
 			"select",
 			"true",
-			"alt+/",
-			"alt",
-			"sent_at",
-			"“word_separators”",
-			"hey"
+			"alt+/"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -760,87 +754,28 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/Users/jdivenyi/webpage/content/pages/home.md",
+					"file": "/Users/jdivenyi/webpage/content/pages/research.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 891,
+						"buffer_size": 4865,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								17,
-								17
+								3902,
+								3902
 							]
 						],
 						"settings":
 						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content"
-							],
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.locations":
 							{
@@ -859,90 +794,92 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
 							],
-							"syntax": "Packages/R-Box/syntax/R Markdown.sublime-syntax"
+							"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+							"syntax": "Packages/MarkdownEditing/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 697.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "/Users/jdivenyi/webpage/content/pages/data-analysis.md",
+					"file": "/Users/jdivenyi/webpage/content/pages/talks.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2328,
+						"buffer_size": 1310,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1994,
-								1994
+								796,
+								796
 							]
 						],
 						"settings":
 						{
+							"_anf_new": "",
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.locations":
 							{
@@ -950,8 +887,8 @@
 								{
 									"1":
 									[
-										2008,
-										2009
+										849,
+										850
 									]
 								},
 								"icon":
@@ -966,8 +903,8 @@
 								{
 									"1":
 									[
-										1980,
-										1981
+										788,
+										789
 									]
 								},
 								"unmatched":
@@ -976,291 +913,86 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 136.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/Users/jdivenyi/webpage/content/pages/da-homework-5.Rmd",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3518,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								20,
-								20
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
+								"bh_unmatched_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"syntax": "Packages/R-Box/syntax/R Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/Users/jdivenyi/webpage/content/pages/da-homework-5-solution.Rmd",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3347,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								203,
-								203
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
 								"bh_single_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
 							],
-							"open_with_edit": true,
-							"syntax": "Packages/R-Box/syntax/R Markdown.sublime-syntax"
+							"syntax": "Packages/MarkdownEditing/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "/Users/jdivenyi/webpage/content/pages/da-homework-3-solution.Rmd",
+					"buffer": 2,
+					"file": "/Users/jdivenyi/webpage/content/pages/about-me.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3587,
+						"buffer_size": 2044,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								506,
-								506
+								937,
+								937
 							]
 						],
 						"settings":
@@ -1283,290 +1015,70 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"syntax": "Packages/R-Box/syntax/R Markdown.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/Users/jdivenyi/webpage/pelicanconf.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1334,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								789,
-								789
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
+								"bh_unmatched_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 90.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "/Users/jdivenyi/bin/header",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1641,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								731,
-								704
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										984,
-										985
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/curly_bracket.png",
-										"brackethighlighter.default"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										443,
-										444
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
 								"bh_single_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
 							],
-							"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax"
+							"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+							"syntax": "Packages/MarkdownEditing/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 790.0,
+						"translation.y": 119.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -1574,11 +1086,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 27.0
+		"height": 48.0
 	},
 	"input":
 	{
-		"height": 36.0
+		"height": 41.0
 	},
 	"layout":
 	{
@@ -1607,11 +1119,19 @@
 	{
 		"height": 0.0
 	},
+	"output.git":
+	{
+		"height": 124.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
 	"pinned_build_system": "",
 	"project": "webpage.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 52.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1621,20 +1141,56 @@
 		"selected_items":
 		[
 			[
+				"pel",
+				"pelicanconf.py"
+			],
+			[
+				"cus",
+				"content/extras/custom.css"
+			],
+			[
+				"up",
+				"content/blog/updated-favorite-chart.Rmd"
+			],
+			[
+				"late",
+				"content/blog/iv-identifies-late.md"
+			],
+			[
+				"abo",
+				"output/pages/about-me.html"
+			],
+			[
+				"vari",
+				"work-in-progress/variable-selection.md"
+			],
+			[
+				"ple",
+				"pelicanconf.py"
+			],
+			[
+				"var",
+				"content/blog/variable-selection.md"
+			],
+			[
+				"pelica",
+				"pelicanconf.py"
+			],
+			[
+				"comp",
+				"content/blog/compare-performance-algorithms.md"
+			],
+			[
+				"res",
+				"content/pages/research.md"
+			],
+			[
 				"p",
 				"pelicanconf.py"
 			],
 			[
 				"data",
 				"content/pages/data-analysis.md"
-			],
-			[
-				"pel",
-				"pelicanconf.py"
-			],
-			[
-				"pelica",
-				"pelicanconf.py"
 			],
 			[
 				"hom",
@@ -1845,7 +1401,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 226.0,
+	"side_bar_width": 223.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

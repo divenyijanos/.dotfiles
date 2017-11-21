@@ -415,50 +415,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/Users/jdivenyi/projects/emsconnectr/R/customer_lists_with_attributes.R",
-			"settings":
-			{
-				"buffer_size": 2850,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/jdivenyi/projects/emsconnectr/R/read_query_result.R",
-			"settings":
-			{
-				"buffer_size": 8519,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/jdivenyi/projects/emsconnectr/R/query_suites.R",
-			"settings":
-			{
-				"buffer_size": 4090,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/jdivenyi/projects/emsconnectr/tests/testthat/test-read_query_result.R",
-			"settings":
-			{
-				"buffer_size": 1116,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/jdivenyi/projects/emsconnectr/R/id_translator.R",
-			"settings":
-			{
-				"buffer_size": 4833,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -467,10 +423,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 357.0,
-		"last_filter": "",
+		"height": 392.0,
+		"last_filter": "edi",
 		"selected_items":
 		[
+			[
+				"edi",
+				"Project: Edit Project"
+			],
 			[
 				"ed",
 				"Project: Edit Project"
@@ -538,10 +498,6 @@
 			[
 				"insta",
 				"Package Control: Install Package"
-			],
-			[
-				"edi",
-				"Project: Edit Project"
 			],
 			[
 				"packa i",
@@ -664,7 +620,7 @@
 				"Preferences: Browse Packages"
 			]
 		],
-		"width": 503.0
+		"width": 476.0
 	},
 	"console":
 	{
@@ -685,23 +641,28 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/jdivenyi/projects/emsconnectr",
-		"/Users/jdivenyi/projects/emsconnectr/R",
-		"/Users/jdivenyi/projects/emsconnectr/tests",
-		"/Users/jdivenyi/projects/emsconnectr/tests/testthat"
+		"/Users/jdivenyi/projects/dataresearch-r-pkg-emsconnectr"
 	],
 	"file_history":
 	[
+		"/Users/jdivenyi/projects/dataresearch-r-pkg-emsconnectr/autotest.R",
+		"/Users/jdivenyi/Library/Application Support/Sublime Text 3/Packages/User/Projects/emsconnectr.sublime-project",
+		"/Users/jdivenyi/projects/emsconnectr/R/customer_settings.R",
+		"/Users/jdivenyi/projects/emsconnectr/R/handle_sql_query.R",
+		"/Users/jdivenyi/projects/emsconnectr/R/sql_result_from_db.R",
 		"/Users/jdivenyi/projects/emsconnectr/NEWS.md",
 		"/Users/jdivenyi/projects/emsconnectr/DESCRIPTION",
-		"/Users/jdivenyi/projects/emsconnectr/R/sql_result_from_db.R",
+		"/Users/jdivenyi/projects/emsconnectr/R/id_translator.R",
+		"/Users/jdivenyi/projects/emsconnectr/tests/testthat/test-read_query_result.R",
+		"/Users/jdivenyi/projects/emsconnectr/R/query_suites.R",
+		"/Users/jdivenyi/projects/emsconnectr/R/read_query_result.R",
+		"/Users/jdivenyi/projects/emsconnectr/R/customer_lists_with_attributes.R",
 		"/Users/jdivenyi/projects/emsconnectr/R/fetch_moneymaker_data.R",
 		"/Users/jdivenyi/projects/emsconnectr/R/emsconnectr_data.R",
 		"/Users/jdivenyi/projects/emsconnectr/R/query_hds.R",
 		"/Users/jdivenyi/projects/emsconnectr/R/query_smart_insight.R",
 		"/Users/jdivenyi/projects/emsconnectr/R/emsconnectr.R",
 		"/Users/jdivenyi/projects/emsconnectr/NAMESPACE",
-		"/Users/jdivenyi/projects/emsconnectr/tests/testthat/test-read_query_result.R",
 		"/Users/jdivenyi/.R/Makevars",
 		"/Users/jdivenyi/.hammerspoon/amphetamine.lua",
 		"/Users/jdivenyi/.hammerspoon/init.lua",
@@ -710,13 +671,9 @@
 		"/Users/jdivenyi/.aliases",
 		"/Users/jdivenyi/projects/emsconnectr/.git/COMMIT_EDITMSG",
 		"/Users/jdivenyi/projects/emsconnectr/tests/testthat/test-process_moneymaker_json.R",
-		"/Users/jdivenyi/projects/emsconnectr/R/query_suites.R",
 		"/Users/jdivenyi/projects/emsconnectr/R/process_moneymaker_json.R",
 		"/Users/jdivenyi/projects/emsconnectr/tests/testthat/test-id_translator.R",
-		"/Users/jdivenyi/projects/emsconnectr/R/id_translator.R",
 		"/Users/jdivenyi/projects/emsconnectr/man/getListOfCustomers.Rd",
-		"/Users/jdivenyi/projects/emsconnectr/R/customer_settings.R",
-		"/Users/jdivenyi/Library/Application Support/Sublime Text 3/Packages/User/Projects/emsconnectr.sublime-project",
 		"/Users/jdivenyi/projects/incentive-optimization/src/tools.R",
 		"/Users/jdivenyi/projects/incentive-optimization/scripts/train_2.py",
 		"/Users/jdivenyi/projects/incentive-optimization/scripts/predict.py",
@@ -815,11 +772,7 @@
 		"/Users/jdivenyi/Google Drive/personal/try.py",
 		"/Users/jdivenyi/tmp/runtastic/stages_read_contact0.R",
 		"/Users/jdivenyi/tmp/runtastic/stages_log.R",
-		"/Users/jdivenyi/tmp/runtastic/stages.R",
-		"/Users/jdivenyi/projects/defecting-probability/src/predictive_models.R",
-		"/Users/jdivenyi/projects/defecting-probability/src/tools.R",
-		"/Users/jdivenyi/tmp/erste.py",
-		"/Users/jdivenyi/Downloads/erste-card1.csv"
+		"/Users/jdivenyi/tmp/runtastic/stages.R"
 	],
 	"find":
 	{
@@ -841,6 +794,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"gitlab",
 			"result_file_name",
 			"fname",
 			"write.cv",
@@ -967,8 +921,7 @@
 			"calculate_MAE",
 			"actual_",
 			"contact_purchase_data",
-			"purchase_date",
-			"purchase"
+			"purchase_date"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -993,576 +946,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/Users/jdivenyi/projects/emsconnectr/R/customer_lists_with_attributes.R",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2850,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1281,
-								1281
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										1281,
-										1282
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/round_bracket.png",
-										"brackethighlighter.default"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										1202,
-										1203
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content"
-							],
-							"r_box_status": false,
-							"syntax": "Packages/R-Box/syntax/R Extended.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/Users/jdivenyi/projects/emsconnectr/R/read_query_result.R",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 8519,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								7340,
-								7340
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content"
-							],
-							"syntax": "Packages/R-Box/syntax/R Extended.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 4495.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/Users/jdivenyi/projects/emsconnectr/R/query_suites.R",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4090,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1928,
-								2986
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										2985,
-										2986
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/curly_bracket.png",
-										"brackethighlighter.default"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										2066,
-										2067
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content"
-							],
-							"syntax": "Packages/R-Box/syntax/R Extended.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 996.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/Users/jdivenyi/projects/emsconnectr/tests/testthat/test-read_query_result.R",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1116,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								897,
-								897
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										917,
-										918
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/single_quote.png",
-										"brackethighlighter.default"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										896,
-										897
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
-							],
-							"syntax": "Packages/R-Box/syntax/R Extended.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/Users/jdivenyi/projects/emsconnectr/R/id_translator.R",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4833,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content"
-							],
-							"r_box_status": false,
-							"syntax": "Packages/R-Box/syntax/R Extended.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1605,6 +990,14 @@
 	{
 		"height": 0.0
 	},
+	"output.git":
+	{
+		"height": 101.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
 	"pinned_build_system": "",
 	"project": "emsconnectr.sublime-project",
 	"replace":
@@ -1619,11 +1012,15 @@
 		"selected_items":
 		[
 			[
-				"new",
+				"n",
 				"NEWS.md"
 			],
 			[
 				"ne",
+				"NEWS.md"
+			],
+			[
+				"new",
 				"NEWS.md"
 			],
 			[
@@ -1956,10 +1353,34 @@
 	},
 	"select_symbol":
 	{
-		"height": 345.0,
-		"last_filter": "query",
+		"height": 141.0,
+		"last_filter": "getSq",
 		"selected_items":
 		[
+			[
+				"getSq",
+				"getSqlResult"
+			],
+			[
+				"getb",
+				"getBigQueryResult"
+			],
+			[
+				"getcusy",
+				"getCustomerSettingsYmlFiles"
+			],
+			[
+				"getbuy",
+				"getBuyerStatusLimitsForCustomer"
+			],
+			[
+				"get",
+				"getBuyerStatusLimits"
+			],
+			[
+				"sub",
+				"substituteParamsInQuery"
+			],
 			[
 				"query",
 				"querySuitesForCustomers"

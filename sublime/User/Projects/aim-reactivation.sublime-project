@@ -1,0 +1,22 @@
+{
+	"build_systems":
+	[
+		{
+			"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+			"name": "Anaconda Python Builder",
+			"selector": "source.python",
+			"shell_cmd": "\"/Users/jdivenyi/.virtualenvs/aim-reactivation/bin/python\" -u \"$file\""
+		}
+	],
+	"folders":
+	[
+		{
+			"path": "/Users/jdivenyi/projects/reactivation-participation-aim-service"
+		}
+	],
+	"settings":
+	{
+		"python_interpreter": "~/.virtualenvs/aim-reactivation/bin/python",
+		"test_command": "pynt"
+	}
+}

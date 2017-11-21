@@ -352,10 +352,28 @@
 	"buffers":
 	[
 		{
-			"file": "/Users/jdivenyi/projects/historical-data-service/features/auxiliary/reporting/calculate_home_location.feature",
+			"file": "/Users/jdivenyi/projects/historical-data-service/lib/historical_data/calculation/stack_based/banned_ips/calculation.rb",
 			"settings":
 			{
-				"buffer_size": 12241,
+				"buffer_size": 673,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/jdivenyi/projects/historical-data-service/features/auxiliary/reporting/calculate_banned_ips.feature",
+			"settings":
+			{
+				"buffer_size": 1791,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/jdivenyi/projects/historical-data-service/features/step_definitions/banned_ips_step.rb",
+			"settings":
+			{
+				"buffer_size": 785,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -369,9 +387,21 @@
 	"command_palette":
 	{
 		"height": 357.0,
-		"last_filter": "",
+		"last_filter": "clo",
 		"selected_items":
 		[
+			[
+				"clo",
+				"Project: Close"
+			],
+			[
+				"git di",
+				"Git: Diff Current File"
+			],
+			[
+				"path",
+				"File: Copy Path"
+			],
 			[
 				"proje",
 				"Project: Add Folder"
@@ -579,12 +609,26 @@
 	"expanded_folders":
 	[
 		"/Users/jdivenyi/projects/historical-data-service",
-		"/Users/jdivenyi/projects/historical-data-service/features",
-		"/Users/jdivenyi/projects/historical-data-service/features/auxiliary",
-		"/Users/jdivenyi/projects/historical-data-service/features/auxiliary/reporting"
+		"/Users/jdivenyi/projects/historical-data-service/lib",
+		"/Users/jdivenyi/projects/historical-data-service/lib/historical_data",
+		"/Users/jdivenyi/projects/historical-data-service/lib/historical_data/calculation",
+		"/Users/jdivenyi/projects/historical-data-service/lib/historical_data/calculation/stack_based",
+		"/Users/jdivenyi/projects/historical-data-service/lib/historical_data/calculation/stack_based/banned_ips"
 	],
 	"file_history":
 	[
+		"/Users/jdivenyi/projects/historical-data-service/lib/historical_data/calculation/stack_based/banned_ips.rb",
+		"/Users/jdivenyi/projects/historical-data-service/Gemfile",
+		"/Users/jdivenyi/projects/historical-data-service/features/auxiliary/reporting/calculate_home_location.feature",
+		"/Users/jdivenyi/projects/historical-data-service/features/core/escher.feature",
+		"/Users/jdivenyi/projects/historical-data-service/features/step_definitions/calculation_steps.rb",
+		"/Users/jdivenyi/projects/historical-data-service/features/core/unified_segmentation/events/contact_location/home_location.feature",
+		"/Users/jdivenyi/projects/historical-data-service/features/step_definitions/behavioural_steps.rb",
+		"/Users/jdivenyi/projects/historical-data-service/features/core/unified_segmentation/events/contact_location/banned_ips.feature",
+		"/Users/jdivenyi/projects/historical-data-service/Vagrantfile",
+		"/Users/jdivenyi/projects/historical-data-service/features/step_definitions/banned_ips_step.rb",
+		"/Users/jdivenyi/projects/historical-data-service/features/step_definitions/command_steps.rb",
+		"/Users/jdivenyi/projects/historical-data-service/features/step_definitions/result_step.rb",
 		"/Users/jdivenyi/projects/historical-data-service/lib/historical_data/calculation/stack_based/home_location/calculation.rb",
 		"/Users/jdivenyi/projects/historical-data-service/lib/historical_data/calculation/stack_based/home_location.rb",
 		"/Users/jdivenyi/projects/geo-location/sql/home_location_production_tmp_tables.sql",
@@ -700,19 +744,7 @@
 		"/home/janos.divenyi/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
 		"/home/janos.divenyi/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
 		"/home/janos.divenyi/projects/save-list-node/src/purchases.sql",
-		"/home/janos.divenyi/projects/save-list-node/src/visualize.R",
-		"/home/janos.divenyi/projects/save-list-node/src/visualize_purchases.R",
-		"/home/janos.divenyi/.Rprofile",
-		"/home/janos.divenyi/projects/save-list-node/src/load_performance_measures.R",
-		"/home/janos.divenyi/.config/sublime-text-3/Packages/User/R-Box.sublime-settings",
-		"/home/janos.divenyi/.config/sublime-text-3/Packages/User/R Extended.sublime-settings",
-		"/home/janos.divenyi/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
-		"/home/janos.divenyi/projects/save-list-node/src/sql/purchases.sql",
-		"/home/janos.divenyi/projects/domain-reporting/src/dbtools.R",
-		"/home/janos.divenyi/projects/domain-reporting/app.R",
-		"/home/janos.divenyi/projects/domain-reporting/src/tools.R",
-		"/home/janos.divenyi/projects/domain-reporting/src/rate_distribution_by_customers.R",
-		"/home/janos.divenyi/projects/domain-reporting/ui.R"
+		"/home/janos.divenyi/projects/save-list-node/src/visualize.R"
 	],
 	"find":
 	{
@@ -734,6 +766,15 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"When",
+			"I run the",
+			"I run the \"bin/hds.sh\" script with",
+			"should be empty",
+			"random record in the",
+			"process should be successful",
+			"the home_locations table is empty",
+			"And the home_locations table is empty",
+			"Given environment is testable",
 			"Zurich",
 			"46.948841",
 			"7.450293",
@@ -852,16 +893,7 @@
 			", Cornwall",
 			", Berkshire",
 			",Lugo",
-			",lugo",
-			",Lugo",
-			",lugo",
-			",Lugo",
-			", Harjumaa",
-			", Wellington",
-			",cambs",
-			", Stamata",
-			", Serbia",
-			", Isle Of Wight"
+			",lugo"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -882,24 +914,260 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/Users/jdivenyi/projects/historical-data-service/features/auxiliary/reporting/calculate_home_location.feature",
+					"file": "/Users/jdivenyi/projects/historical-data-service/lib/historical_data/calculation/stack_based/banned_ips/calculation.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 12241,
+						"buffer_size": 673,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								12241,
-								12241
+								561,
+								561
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										662,
+										665
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/dot.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										279,
+										282
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Boxy Tomorrow.tmTheme",
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/jdivenyi/projects/historical-data-service/features/auxiliary/reporting/calculate_banned_ips.feature",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1791,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1127,
+								1127
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1134,
+										1135
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1097,
+										1098
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Boxy Tomorrow.tmTheme",
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/jdivenyi/projects/historical-data-service/features/step_definitions/banned_ips_step.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 785,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								31,
+								31
 							]
 						],
 						"settings":
@@ -922,41 +1190,6 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
@@ -967,26 +1200,60 @@
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
 							],
-							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"color_scheme": "Packages/User/Color Highlighter/themes/Boxy Tomorrow.tmTheme",
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 2443.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -1031,6 +1298,10 @@
 	{
 		"height": 0.0
 	},
+	"output.git":
+	{
+		"height": 101.0
+	},
 	"output.mdpopups":
 	{
 		"height": 0.0
@@ -1048,6 +1319,54 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"calculateho",
+				"features/auxiliary/reporting/calculate_home_location.feature"
+			],
+			[
+				"calculaho",
+				"features/auxiliary/reporting/calculate_home_location.feature"
+			],
+			[
+				"steps",
+				"features/step_definitions/calculation_steps.rb"
+			],
+			[
+				".feat",
+				"features/core/escher.feature"
+			],
+			[
+				"home",
+				"features/core/unified_segmentation/events/contact_location/home_location.feature"
+			],
+			[
+				"step",
+				"features/step_definitions/behavioural_steps.rb"
+			],
+			[
+				"banned",
+				"features/step_definitions/banned_ips_step.rb"
+			],
+			[
+				"banne",
+				"lib/historical_data/calculation/stack_based/banned_ips/calculation.rb"
+			],
+			[
+				"step.",
+				"features/step_definitions/result_step.rb"
+			],
+			[
+				"banned_ip",
+				"features/auxiliary/reporting/calculate_banned_ips.feature"
+			],
+			[
+				"",
+				"features/core/unified_segmentation/events/contact_location/banned_ips.feature"
+			],
+			[
+				"bann",
+				"features/core/unified_segmentation/events/contact_location/banned_ips.feature"
+			],
 			[
 				"calculho",
 				"lib/historical_data/calculation/stack_based/home_location/calculation.rb"
@@ -1077,20 +1396,12 @@
 				"db_config.yml"
 			],
 			[
-				"bann",
-				"sql/banned_ips_mvp.sql"
-			],
-			[
 				"ho",
 				"src/home_location.sql"
 			],
 			[
 				"src/",
 				"src/manipulate_data.R"
-			],
-			[
-				"home",
-				"src/home_location.sql"
 			],
 			[
 				".sql",
@@ -1370,7 +1681,7 @@
 	},
 	"select_symbol":
 	{
-		"height": 357.0,
+		"height": 311.0,
 		"last_filter": "",
 		"selected_items":
 		[
@@ -1379,7 +1690,7 @@
 				"# Aliases\n"
 			]
 		],
-		"width": 374.0
+		"width": 404.0
 	},
 	"selected_group": 0,
 	"settings":

@@ -11,12 +11,13 @@ local applicationHotkeys = {
   z = 'HipChat',
   r = 'Rstudio',
   e = 'Slack',
-  v = 'Evernote',
+  n = 'Evernote',
   w = 'Microsoft Word',
   x = 'Microsoft Excel',
   i = 'Microsoft Powerpoint',
   d = 'Finder',
-  p = 'Preview',
+  v = 'Preview',
+  t = 'Trello',
   c = 'Calendar'
 }
 

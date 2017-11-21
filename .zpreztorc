@@ -98,6 +98,7 @@ zstyle ':prezto:module:history-substring-search:color' found ''
 # Auto set to 'off' on dumb terminals.
 zstyle ':prezto:module:prompt' theme 'jerome'
 
+
 #
 # Ruby
 #

@@ -1,0 +1,6 @@
+// These settings override both User and Default settings for the R Markdown syntax
+{
+    "color_scheme": "Packages/MarkdownEditing/MarkdownEditor-Dark.tmTheme",
+    "word_wrap": true,
+    "spell_check": true
+}
