@@ -1,37 +1,23 @@
 options(digits = 4)
 options(max.print = 500)
 options(width = 200)
-options(datatable.print.class = TRUE, datatable.print.topn = 10, datatable.print.nrows = 20)
-Sys.setenv(TZ = 'Europe/Budapest')
+options(
+    datatable.print.class = TRUE,
+    datatable.print.topn = 10,
+    datatable.print.nrows = 20,
+    datatable.CJ.names = TRUE,
+    datatable.print.trunc.cols = TRUE
+)
+options(
+    radian.color_scheme = "monokai",
+    radian.editing_mode = "vi"
+)
+Sys.setenv(TZ = "Europe/Budapest")
 
 cd <- setwd
 .myfuncs <- new.env()
-.myfuncs$qs <- function(save = "yes") {q(save = save)}
-
-# Load colorout if run in terminal interactively (handle packrat as well) ------
-
-.myfuncs$setColorout <- function() {
-    setOutputColors256(
-        normal = 2, number = 3, negnum = 9, date = 7,
-        true = 4, false = 1, string = 2,
-        stderror = 10, infinite = 6, const = 5,
-        verbose = FALSE
-    )
-    message("Package colorout is loaded")
-}
-
-if (interactive() & is.na(Sys.getenv("RSTUDIO", unset = NA))) {
-    if (file.exists('packrat')) {
-        try(packrat::extlib('colorout'))
-    } else {
-        library('colorout')
-    }
-    .myfuncs$setColorout()
-}
-
-.myfuncs$useEmarsysCRAN <- function() {
-    cranURI  <- "http://venice.ett.local/emarsys-cran/"
-    options(repos = c(getOption("repos"), emarsys = cranURI))
+.myfuncs$qs <- function(save = "yes") {
+    q(save = save)
 }
 
 .myfuncs$useEmarsysDrat <- function() {
@@ -43,3 +29,13 @@ if (interactive() & is.na(Sys.getenv("RSTUDIO", unset = NA))) {
 .First <- function() {
     message("Successfully loaded ~/.Rprofile at ", date())
 }
+
+setHook(
+    packageEvent("languageserver", "onLoad"),
+    function(...) {
+        options(languageserver.default_linters = lintr::with_defaults(
+            line_length_linter = lintr::line_length_linter(120),
+            object_snake_case_linter = NULL, object_camel_case_linter = NULL
+        ))
+    }
+)

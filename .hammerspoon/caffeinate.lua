@@ -36,6 +36,6 @@ end)
 
 -- Lock
 
-hyper:bind({}, "q", function()
+hyper:bind({}, "x", function()
   hs.caffeinate.startScreensaver()
 end)

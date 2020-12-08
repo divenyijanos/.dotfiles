@@ -37,7 +37,7 @@ alias gl="git log --graph --pretty='%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgre
 
 # Programs
 alias rstudio='open -a Rstudio'
-alias R='R --no-save'
+alias R='radian'
 
 # Special commands
 alias rmspaces="rename 'y/ /_/' *"
@@ -45,11 +45,9 @@ alias gen_shiny='touch app.R global.R server.R ui.R'
 alias inventory='sort | uniq -c | sort -n'
 alias mdr='mount -t smbfs //budrdc02/bigdata/data_research ~/mount/data_research'
 alias mbd='mount -t smbfs //budrdc02/bigdata ~/mount/bigdata'
-alias mcran='mount -t smbfs //janos.divenyi@venice.ett.local/storage/emarsys-cran ~/mount/emarsys-cran'
 alias msi='mount -t smbfs //budrdc02/smart_insight ~/mount/SI'
-
+alias crp='python3 ~/bin/cli-tool-for-r-proj-skeleton/r_project_setup.py'
 
 # DB
-alias hds_sql='psql -h 10.22.0.221 -p 5432 -U hds -d hds'
-alias gp1_sql='psql -h 10.22.0.211 -p 5432 -U hds -d hds'
-alias si_sql='psql -h 10.22.0.211 -p 5432 -U bigdata_ro -d smart_insight'
+alias hds_sql='psql -h 10.22.0.200 -p 5432 -U bigdata_ro -d hds'
+alias si_sql='psql -h gp1-mdw-vip.emarsys.at -p 5432 -U bigdata_ro -d smart_insight'
