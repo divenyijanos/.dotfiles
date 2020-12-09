@@ -3,7 +3,7 @@ tell application "System Events"
     tell process "Google Chrome"
         tell menu bar 1
             tell menu "People"
-                click menu item 1
+                click menu item 2
             end tell
         end tell
     end tell
