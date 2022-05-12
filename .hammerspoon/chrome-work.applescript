@@ -1,8 +1,8 @@
-do shell script "open -a Google\\ Chrome --args --profile-directory=Profile\\ 2"
+do shell script "open -a Google\\ Chrome --args --profile-directory=Profile\\ 1"
 tell application "System Events"
     tell process "Google Chrome"
         tell menu bar 1
-            tell menu "People"
+            tell menu "Profiles"
                 click menu item 2
             end tell
         end tell

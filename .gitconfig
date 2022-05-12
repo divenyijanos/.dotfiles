@@ -1,31 +1,22 @@
 [user]
-	name = Janos Divenyi
-	email = janos.divenyi@emarsys.com
+    name = Janos Divenyi
+    email = janos.divenyi@emarsys.com
 [color]
     ui = true
 [alias]
     lg=log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
     s="!echo \"# Remotes\"; git remote -v; echo .; git status ."
 [core]
-	editor = subl -n -w
+    editor = code --wait
 [push]
-	default = simple
-
-[merge]
-    tool = sublimerge
-
-[mergetool]
-    prompt = false
-
-[mergetool "sublimerge"]
-    cmd = subl -n --wait \"$LOCAL\" \"$MERGED\" \"$REMOTE\" \"$BASE\" --command \"sublimerge_diff_views\"
-    trustExitCode = false
-
+    default = simple
+[pull]
+    rebase = true
 [diff]
-    tool = sublimerge
-
-[difftool]
-    prompt = false
-
-[difftool "sublimerge"]
-    cmd = subl -n --wait \"$LOCAL\" \"$REMOTE\" --command \"sublimerge_diff_views {\\\"left_read_only\\\": true, \\\"right_read_only\\\": false}\"
+    tool = vscode
+[difftool "vscode"]
+    cmd = code --wait --diff $LOCAL $REMOTE
+[merge]
+    tool = vscode
+[mergetool "vscode"]
+    cmd = code --wait $MERGED

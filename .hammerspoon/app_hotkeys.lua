@@ -3,7 +3,7 @@
 -- --------------------------------------
 
 local applicationHotkeys = {
-  s = 'Sublime Text',
+  s = 'Visual Studio Code',
   a = 'iTerm',
   g = 'chrome-private',
   w = 'chrome-work',
@@ -13,13 +13,13 @@ local applicationHotkeys = {
   t = 'Rstudio',
   q = 'BigQuery',
   e = 'Slack',
-  d = 'fman',
+  d = 'Finder',
   z = 'zoom.us',
   v = 'Preview',
   i = 'Todoist',
   c = 'Calendar',
   n = 'Notion',
-  b = 'Viber'
+  u = 'Tunnelblick'
 }
 
 for key, app in pairs(applicationHotkeys) do
